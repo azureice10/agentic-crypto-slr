@@ -1,0 +1,5 @@
+level,rows,reports,q1_ms,median_ms,q3_ms,report_median_ms,mean_point_rows,mean_point_median_ms,excluding_discordant_rows,excluding_discordant_median_ms
+L1,78,33,0.2647915,1.7645,18.275,4.3,75,1.82,78,1.7645
+L2,51,32,2.15,10.8,32.55,11.15,43,14.2,51,10.8
+L3,40,17,12.42,262.88,8977.5,100.0,39,173.86,38,920.95
+L4,193,96,80.0,1700.0,10900.0,432.655,180,2035.0,192,1641.4

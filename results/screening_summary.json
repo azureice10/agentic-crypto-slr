@@ -1,0 +1,123 @@
+{
+  "release": "3.6.3",
+  "stage1_records": 926,
+  "stage1_final_decisions": {
+    "ADVANCE_FULLTEXT": 610,
+    "EXCLUDE_STAGE1": 236,
+    "CONTEXT_ONLY": 78,
+    "LINK_REPORT_VERSION": 2
+  },
+  "stage1_five_class": {
+    "n": 926,
+    "matching_decisions": 646,
+    "disagreements": 280,
+    "observed_agreement": 0.6976241900647948,
+    "kappa": 0.41721473236562084
+  },
+  "stage1_binary": {
+    "n": 926,
+    "matching_decisions": 685,
+    "disagreements": 241,
+    "observed_agreement": 0.7397408207343412,
+    "kappa": 0.4446313651906011
+  },
+  "stage1_tiers": {
+    "TIER_2_ARXIV_PREPRINT": 494,
+    "TIER_1_PEER_REVIEWED": 432
+  },
+  "stage2_records": 610,
+  "stage2_tiers": {
+    "TIER_2_ARXIV_PREPRINT": 347,
+    "TIER_1_PEER_REVIEWED": 263
+  },
+  "stage2_retrieval": {
+    "RETRIEVED_PDF": 610
+  },
+  "stage2_eligibility": {
+    "ELIGIBLE_INCLUDED": 442,
+    "EXCLUDED_FULLTEXT": 166,
+    "MERGED_STUDY_FAMILY": 2
+  },
+  "stage2_rigor_gate": {
+    "PASS_RIGOR_GATE": 331,
+    "TIER1_EXEMPT": 263,
+    "FAIL_RIGOR_GATE": 14,
+    "NOT_ASSESSED_MERGED": 2
+  },
+  "fulltext_exclusions": {
+    "EC4_INCIDENTAL_APP": 76,
+    "EC1_NON_AGENTIC": 53,
+    "EC5_SECONDARY_OR_CONTAINER": 19,
+    "EC_RIGOR_1": 9,
+    "EC_RIGOR_2": 5,
+    "EC2_OFFENSIVE_ONLY": 3,
+    "LANGUAGE_NOT_ENGLISH": 1
+  },
+  "fulltext_review_rows": 1220,
+  "fulltext_review_completion": {
+    "COMPLETE": 1216,
+    "NOT_STARTED": 4
+  },
+  "rigor_review_rows": 694,
+  "canonical_report_join": "442/442 source IDs and recorded hashes match",
+  "historical_stage2_extraction_states": {
+    "NOT_STARTED": 565,
+    "CLAIMS_EXTRACTED": 45
+  },
+  "arxiv_raw_occurrences": 4142,
+  "arxiv_unique_ids": 3894,
+  "arxiv_query_counts": {
+    "ARXIV_S1a": 3814,
+    "ARXIV_S2": 145,
+    "ARXIV_S3": 107,
+    "ARXIV_S1b": 76
+  },
+  "arxiv_gate_status": {
+    "NEW_ARXIV_PREPRINT": 494,
+    "SUPERSEDED_BY_PEER_REVIEWED": 35
+  },
+  "arxiv_seed_queries": [
+    {
+      "arxiv_id_base": "2607.21325",
+      "current_manuscript_reference": 3,
+      "query_sources": [
+        "ARXIV_S1a"
+      ],
+      "version": "2607.21325v3"
+    },
+    {
+      "arxiv_id_base": "2504.21034",
+      "current_manuscript_reference": 4,
+      "query_sources": [
+        "ARXIV_S1a",
+        "ARXIV_S2"
+      ],
+      "version": "2504.21034v2"
+    },
+    {
+      "arxiv_id_base": "2605.06933",
+      "current_manuscript_reference": 5,
+      "query_sources": [
+        "ARXIV_S1a",
+        "ARXIV_S1b"
+      ],
+      "version": "2605.06933v2"
+    },
+    {
+      "arxiv_id_base": "2605.03213",
+      "current_manuscript_reference": 13,
+      "query_sources": [
+        "ARXIV_S1a"
+      ],
+      "version": "2605.03213v2"
+    }
+  ],
+  "date_issues": {},
+  "confirmed_date_corrections": {
+    "rows": 104,
+    "corrected_date": "2026-10-16",
+    "confirmed_on": "2026-11-03",
+    "ledger": "protocol/screening_date_corrections.csv"
+  },
+  "limits": "Agreement is computed from recorded labels and does not authenticate reviewer independence. The 104 date corrections follow explicit user confirmation; primary PDF contents are not replicated."
+}

@@ -1,0 +1,11 @@
+Dimension,Exact_Agreements,Report_Denominator,Reported_Po_percent,Reported_Kappa,Reported_AC1,Classes,Verification_Basis
+PQC_GROUPED,427,442,96.61,0.6399,0.9654,2,Author-supplied summary on 2026-11-04; raw pairs not yet inspected
+AD_INCIDENCE,396,442,89.59,0.0681,0.8835,2,Author-supplied summary on 2026-11-04; raw pairs not yet inspected
+BOUNDARY_MULTI_SINGLE,387,442,87.56,0.3632,0.8454,2,Author-supplied summary on 2026-11-04; raw pairs not yet inspected
+BOUNDARY_FIVE_CLASS,385,442,87.10,0.3668,0.8641,5,Author-supplied summary on 2026-11-04; raw pairs not yet inspected
+SUPPORT_BINARY,367,442,83.03,0.2878,0.8074,2,Author-supplied summary on 2026-11-04; raw pairs not yet inspected
+CLAIM_CATEGORY,320,442,72.40,0.5829,0.6820,6,Author-supplied summary on 2026-11-04; raw pairs not yet inspected
+DG_INCIDENCE,297,442,67.19,0.1697,0.4582,2,Author-supplied summary on 2026-11-04; raw pairs not yet inspected
+LIFECYCLE_STAGE,230,442,52.04,0.3356,0.4746,9,Author-supplied summary on 2026-11-04; raw pairs not yet inspected
+FORMAL_EVIDENCE_TYPE,230,442,52.04,0.3584,0.4521,7,Author-supplied summary on 2026-11-04; raw pairs not yet inspected
+IMPLEMENTATION_MATURITY,230,442,52.04,0.2897,0.4730,7,Author-supplied summary on 2026-11-04; raw pairs not yet inspected

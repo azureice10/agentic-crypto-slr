@@ -1,0 +1,110 @@
+[
+  {
+    "table": "S1",
+    "label": "tab:boundaries"
+  },
+  {
+    "table": "S2",
+    "label": "tab:related"
+  },
+  {
+    "table": "S3",
+    "label": "tab:exclusions"
+  },
+  {
+    "table": "S4",
+    "label": "tab:appraisal"
+  },
+  {
+    "table": "S5",
+    "label": "tab:corpus"
+  },
+  {
+    "table": "S6",
+    "label": "tab:claimboundaries"
+  },
+  {
+    "table": "S7",
+    "label": "tab:incidence"
+  },
+  {
+    "table": "S8",
+    "label": "tab:lifecycle"
+  },
+  {
+    "table": "S9",
+    "label": "tab:evidence"
+  },
+  {
+    "table": "S10",
+    "label": "tab:limitations"
+  },
+  {
+    "table": "S11",
+    "label": "tab:metrics"
+  },
+  {
+    "table": "S12",
+    "label": "tab:latency"
+  },
+  {
+    "table": "S13",
+    "label": "tab:statistic"
+  },
+  {
+    "table": "S14",
+    "label": "tab:pqcstages"
+  },
+  {
+    "table": "S15",
+    "label": "tab:dependencies"
+  },
+  {
+    "table": "S16",
+    "label": "tab:tiers"
+  },
+  {
+    "table": "S17",
+    "label": "tab:roles"
+  },
+  {
+    "table": "S18",
+    "label": "tab:mechanismtiers"
+  },
+  {
+    "table": "S19",
+    "label": "tab:correspondence"
+  },
+  {
+    "table": "S20",
+    "label": "tab:requirements"
+  },
+  {
+    "table": "S21",
+    "label": "tab:migrationdecisions"
+  },
+  {
+    "table": "S22",
+    "label": "tab:agenda"
+  },
+  {
+    "table": "S23",
+    "label": "tab:searchlog"
+  },
+  {
+    "table": "S24",
+    "label": "tab:batches"
+  },
+  {
+    "table": "S25",
+    "label": "tab:formal-catalog"
+  },
+  {
+    "table": "S26",
+    "label": "tab:migration-catalog"
+  },
+  {
+    "table": "S27",
+    "label": "tab:release-zones"
+  }
+]

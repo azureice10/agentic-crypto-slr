@@ -1,0 +1,138 @@
+{
+  "input_sha256": {
+    "raw_reviewer_1_herman_kabetta\\LEMBAR_KERJA_REVIEWER_1_BATCH_E01_TIER1_50.csv": "46cab1fbba5674e0843cfd91ffe8c17bbbaac41ce2dc5a2b7bab10ea85793fa0",
+    "raw_reviewer_1_herman_kabetta\\LEMBAR_KERJA_REVIEWER_1_BATCH_E02_TIER1_50.csv": "ee071bc5b67b5292aa959c2e3ccdfbc6234dc37ba4e119ac2ba34352b55b1e19",
+    "raw_reviewer_1_herman_kabetta\\LEMBAR_KERJA_REVIEWER_1_BATCH_E03_TIER1_50.csv": "2e25b86f51eb372a3ab1b9dbca08b6ffa5dfa14b94212d0ff1ef711e6f6e32b7",
+    "raw_reviewer_1_herman_kabetta\\LEMBAR_KERJA_REVIEWER_1_BATCH_E04_TIER1_62.csv": "f76bd208f3ce218905337d9ac44b3477e3d629aae54b9ba415e6c0a2bb01b200",
+    "raw_reviewer_1_herman_kabetta\\LEMBAR_KERJA_REVIEWER_1_BATCH_E05_PILOT_24.csv": "4da46e0173458491807443d09b593687b669a82b431a99b934e8dd56ce80e0f2",
+    "raw_reviewer_1_herman_kabetta\\LEMBAR_KERJA_REVIEWER_1_BATCH_E06_ARXIV_50.csv": "4d06a2fcb0c17055842d9bbc8561e68bb022d8afb4f139ec3493bd9a286004de",
+    "raw_reviewer_1_herman_kabetta\\LEMBAR_KERJA_REVIEWER_1_BATCH_E07_ARXIV_50.csv": "2a7de3eda2b1e7779cf0e50e56a42a872475544c2d685dfa0e84c64b7a120670",
+    "raw_reviewer_1_herman_kabetta\\LEMBAR_KERJA_REVIEWER_1_BATCH_E08_ARXIV_50.csv": "fe98ecf8083144488a87963165f6bece4fd5c214639cbd15fb5f1028f87e8335",
+    "raw_reviewer_1_herman_kabetta\\LEMBAR_KERJA_REVIEWER_1_BATCH_E09_ARXIV_56.csv": "04e1156a62d84d53d9e7bba910e53882a37a47d2d875c6bd847a84f751ba08ea",
+    "raw_reviewer_2_i_komang_setia_buana\\LEMBAR_KERJA_REVIEWER_2_BATCH_E01_TIER1_50.csv": "1456c9407fc5c889949f868259401660a3be79cb55d2bd5d53b4ecbe4e77bfe7",
+    "raw_reviewer_2_i_komang_setia_buana\\LEMBAR_KERJA_REVIEWER_2_BATCH_E02_TIER1_50.csv": "21babcac55f672b807954bd7e744cf9d87f40bb2b272ca3c96f76ebd4cb191ba",
+    "raw_reviewer_2_i_komang_setia_buana\\LEMBAR_KERJA_REVIEWER_2_BATCH_E03_TIER1_50.csv": "6e8e5a117912e8f8dac5daa4d68712757b77c057495387988cab7b13b3b7348b",
+    "raw_reviewer_2_i_komang_setia_buana\\LEMBAR_KERJA_REVIEWER_2_BATCH_E04_TIER1_62.csv": "d0f7089789328f18063ebd0334fa26be5af7b5e00950358554389ba3e1235901",
+    "raw_reviewer_2_i_komang_setia_buana\\LEMBAR_KERJA_REVIEWER_2_BATCH_E05_PILOT_24.csv": "48d6ea1f5ecab3ccb6c0750ec1626dfd5517aaff8411771d31b4897e59caa79e",
+    "raw_reviewer_2_i_komang_setia_buana\\LEMBAR_KERJA_REVIEWER_2_BATCH_E06_ARXIV_50.csv": "cc72ef73cd17306822c3729705d4304c19466a7d6aba4e72552baf3df76ae422",
+    "raw_reviewer_2_i_komang_setia_buana\\LEMBAR_KERJA_REVIEWER_2_BATCH_E07_ARXIV_50.csv": "7b6a17afddd12fe4955f862ffe402654290f28491a9a95f9e52dc82acde810fc",
+    "raw_reviewer_2_i_komang_setia_buana\\LEMBAR_KERJA_REVIEWER_2_BATCH_E08_ARXIV_50.csv": "28ce75749a0c8ed0f48e269093732aaf7f465d7aa2d1cd271d0f20569cbeb755",
+    "raw_reviewer_2_i_komang_setia_buana\\LEMBAR_KERJA_REVIEWER_2_BATCH_E09_ARXIV_56.csv": "a3c9a3e4dffbf8547d46526da03be6e5698effa24cd6e00c8e78323f75c5be1c"
+  },
+  "reviewer_metadata": [
+    {
+      "reviewer": 1,
+      "rows": 533,
+      "reports": 442,
+      "extractor_labels": {
+        "UNASSIGNED": 148,
+        "REVIEWER_1": 385
+      },
+      "verification_labels": {
+        "EXTRACTED": 533
+      },
+      "AI_draft_rationale_rows": 212,
+      "human_identity_not_assigned_rationale_rows": 212,
+      "maturity_categories": {
+        "CONTROLLED_BENCHMARK": 205,
+        "DEPLOYMENT_LIKE_EVALUATION": 19,
+        "PROOF_OF_CONCEPT": 217,
+        "RESEARCH_PROTOTYPE_SIMULATOR": 55,
+        "FORMAL_MODEL_ONLY": 6,
+        "CONCEPTUAL_ARCHITECTURE": 24,
+        "NE": 2,
+        "PRODUCTION_DEPLOYED": 5
+      }
+    },
+    {
+      "reviewer": 2,
+      "rows": 508,
+      "reports": 442,
+      "extractor_labels": {
+        "REVIEWER_2": 508
+      },
+      "verification_labels": {
+        "EXTRACTED": 508
+      },
+      "AI_draft_rationale_rows": 0,
+      "human_identity_not_assigned_rationale_rows": 0,
+      "maturity_categories": {
+        "CONTROLLED_BENCHMARK": 364,
+        "DEPLOYMENT_LIKE_EVALUATION": 34,
+        "PROOF_OF_CONCEPT": 51,
+        "FORMAL_MODEL_ONLY": 4,
+        "RESEARCH_PROTOTYPE_SIMULATOR": 26,
+        "CONCEPTUAL_ARCHITECTURE": 28,
+        "PRODUCTION_DEPLOYED": 1
+      }
+    }
+  ],
+  "canonical_ID_sets_match": true,
+  "all_report_hashes_match_between_reviewers": true,
+  "claim_count_agreement": {
+    "N": 442,
+    "Agree": 349,
+    "Po_percent": 78.95927601809954,
+    "Kappa": 0.2751926366088902,
+    "AC1": 0.7540709231314586,
+    "Categories": 3
+  },
+  "multiplicity_cells": [
+    {
+      "R1_count": "1",
+      "R2_count": "1",
+      "Reports": 319
+    },
+    {
+      "R1_count": "1",
+      "R2_count": "2",
+      "Reports": 34
+    },
+    {
+      "R1_count": "2",
+      "R2_count": "1",
+      "Reports": 58
+    },
+    {
+      "R1_count": "2",
+      "R2_count": "2",
+      "Reports": 29
+    },
+    {
+      "R1_count": "3",
+      "R2_count": "2",
+      "Reports": 1
+    },
+    {
+      "R1_count": "3",
+      "R2_count": "3",
+      "Reports": 1
+    }
+  ],
+  "paired_claims": 474,
+  "unmatched_R1": 59,
+  "unmatched_R2": 34,
+  "author_script_summary_reproduced": true,
+  "independent_method_dimension_matches": 45,
+  "author_aggregation_rank_unmapped_values": {
+    "maturity": {
+      "CONTROLLED_BENCHMARK": 569,
+      "DEPLOYMENT_LIKE_EVALUATION": 53,
+      "PROOF_OF_CONCEPT": 268,
+      "RESEARCH_PROTOTYPE_SIMULATOR": 81,
+      "FORMAL_MODEL_ONLY": 10,
+      "CONCEPTUAL_ARCHITECTURE": 52,
+      "NE": 2,
+      "PRODUCTION_DEPLOYED": 6
+    },
+    "formal": {},
+    "pqc": {}
+  },
+  "limits": [
+    "first-row and ordinal pairing do not independently establish semantic claim equivalence",
+    "similarity matching optimizes some evaluated attributes and cannot independently validate their reliability",
+    "author confirms Herman checked and approved supplied R1 worksheets before adjudication; legacy metadata remain and approval notes are being located",
+    "single-claim subset excludes all reports with different or multiple selections; no generalization without qualification",
+    "original author script does not regenerate supplied per-batch and alignment result files"
+  ]
+}

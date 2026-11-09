@@ -1,0 +1,93 @@
+{
+  "release": "3.6.3",
+  "supplied_on": "2026-11-03",
+  "queries": [
+    {
+      "query_id": "ARXIV_S1a",
+      "platform": "arXiv",
+      "query_text": "(cat:cs.CR OR cat:cs.AI OR cat:cs.MA OR cat:cs.SE OR cat:cs.DC) AND \n(all:\"LLM agent\" OR all:\"LLM agents\" OR all:\"agentic AI\" OR all:\"agentic\" OR all:\"AI agent\" OR all:\"AI agents\" OR all:\"model context protocol\") AND \n(all:\"cryptographic\" OR all:\"cryptography\" OR all:\"cryptographically verifiable\" OR all:\"zero-knowledge\" OR \nall:\"verifiable credential\" OR all:\"verifiable credentials\" OR all:\"verifiable provenance\" OR all:\"verifiable execution\" OR \nall:\"tamper-evident\" OR all:\"remote attestation\" OR all:\"trusted execution environment\" OR all:\"confidential computing\" OR all:\"secure enclave\")",
+      "provenance": "author note and matching archived pipeline",
+      "execution_fidelity": "matches archived pipeline constant"
+    },
+    {
+      "query_id": "ARXIV_S1b",
+      "platform": "arXiv",
+      "query_text": "(cat:cs.CR OR cat:cs.AI OR cat:cs.MA OR cat:cs.SE OR cat:cs.DC) AND \n(all:\"LLM agent\" OR all:\"LLM agents\" OR all:\"agentic AI\" OR all:\"agentic\" OR all:\"AI agent\" OR all:\"AI agents\" OR all:\"model context protocol\") AND \n(all:\"homomorphic encryption\" OR all:\"fully homomorphic\" OR all:\"attribute-based encryption\" OR all:\"proxy re-encryption\" OR \nall:\"multiparty computation\" OR all:\"multi-party computation\" OR all:\"post-quantum\" OR all:\"quantum-safe\" OR \nall:\"quantum-resilient\" OR all:\"ML-KEM\" OR all:\"ML-DSA\" OR all:\"SLH-DSA\")",
+      "provenance": "author note and matching archived pipeline",
+      "execution_fidelity": "matches archived pipeline constant"
+    },
+    {
+      "query_id": "ARXIV_S2",
+      "platform": "arXiv",
+      "query_text": "(cat:cs.CR OR cat:cs.AI OR cat:cs.MA OR cat:cs.SE OR cat:cs.DC) AND \n(all:\"LLM agent\" OR all:\"LLM agents\" OR all:\"agentic AI\" OR all:\"agentic\" OR all:\"AI agent\" OR all:\"AI agents\" OR \nall:\"model context protocol\" OR all:\"Agent2Agent\" OR all:\"A2A protocol\") AND \n(all:\"authenticated delegation\" OR all:\"secure delegation\" OR all:\"capability-based\" OR all:\"capability token\" OR \nall:\"token binding\" OR all:\"credential binding\" OR all:\"proof of possession\" OR all:\"SPIFFE\" OR \nall:\"decentralized identifier\" OR all:\"UMA 2.0\" OR all:\"security architecture\" OR all:\"zero-trust\")",
+      "provenance": "author note and matching archived pipeline",
+      "execution_fidelity": "matches archived pipeline constant"
+    },
+    {
+      "query_id": "ARXIV_S3",
+      "platform": "arXiv",
+      "query_text": "(cat:cs.CR OR cat:cs.AI OR cat:cs.MA OR cat:cs.SE OR cat:cs.DC) AND \n(all:\"LLM agent\" OR all:\"LLM agents\" OR all:\"agentic AI\" OR all:\"agentic\" OR all:\"tool-using agent\" OR \nall:\"model context protocol\" OR all:\"MCP server\" OR all:\"MCP servers\") AND \n(all:\"confused deputy\" OR all:\"tool poisoning\" OR all:\"tool hijacking\" OR all:\"function hijacking\" OR \nall:\"tool squatting\" OR all:\"authorization bypass\" OR all:\"delegation attack\" OR all:\"audit tampering\" OR \nall:\"memory exfiltration\" OR (all:\"model context protocol\" AND (all:\"prompt injection\" OR all:\"access control\" OR all:\"privilege\" OR all:\"runtime policy\")))",
+      "provenance": "author note and matching archived pipeline",
+      "execution_fidelity": "matches archived pipeline constant"
+    },
+    {
+      "query_id": "ACM-S1",
+      "platform": "ACM DL",
+      "query_text": "(\"LLM agent\" OR \"LLM agents\" OR \"agentic AI\" OR \"agentic\" OR \"AI agent\" OR \"AI agents\" OR \"model context protocol\") \nAND \n(\"cryptographic\" OR \"cryptography\" OR \"zero-knowledge\" OR \"verifiable credential\" OR \"verifiable provenance\" OR \"remote attestation\" OR \"trusted execution environment\" OR \"confidential computing\" OR \"secure enclave\" OR \"homomorphic encryption\" OR \"multi-party computation\" OR \"post-quantum\")",
+      "provenance": "author-supplied Boolean expression",
+      "execution_fidelity": "original UI field/proximity settings not recovered"
+    },
+    {
+      "query_id": "ACM-S2",
+      "platform": "ACM DL",
+      "query_text": "(\"LLM agent\" OR \"LLM agents\" OR \"agentic AI\" OR \"agentic\" OR \"AI agent\" OR \"AI agents\" OR \"model context protocol\" OR \"Agent2Agent\" OR \"A2A protocol\") \nAND \n(\"authenticated delegation\" OR \"secure delegation\" OR \"capability-based\" OR \"capability token\" OR \"token binding\" OR \"proof of possession\" OR \"SPIFFE\" OR \"decentralized identifier\" OR \"zero-trust\" OR \"security architecture\")",
+      "provenance": "author-supplied Boolean expression",
+      "execution_fidelity": "original UI field/proximity settings not recovered"
+    },
+    {
+      "query_id": "ACM-S3",
+      "platform": "ACM DL",
+      "query_text": "(\"LLM agent\" OR \"LLM agents\" OR \"agentic AI\" OR \"agentic\" OR \"tool-using agent\" OR \"model context protocol\" OR \"MCP server\") \nAND \n(\"confused deputy\" OR \"tool poisoning\" OR \"tool hijacking\" OR \"function hijacking\" OR \"tool squatting\" OR \"authorization bypass\" OR \"delegation attack\" OR \"audit tampering\" OR \"prompt injection\" OR \"runtime policy\")",
+      "provenance": "author-supplied Boolean expression",
+      "execution_fidelity": "original UI field/proximity settings not recovered"
+    }
+  ],
+  "arxiv_parameters": {
+    "CUTOFF_ISO_STR": "2026-10-15T23:59:59Z",
+    "ARXIV_API_URL": "https://export.arxiv.org/api/query",
+    "USER_AGENT": "SLR-Agentic-Crypto-Review/1.0",
+    "RATE_LIMIT_SLEEP": 3.5,
+    "PAGE_SIZE": 200,
+    "REQUEST_TIMEOUT": 60,
+    "MAX_RETRIES": 3,
+    "ALLOWED_CATEGORIES": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CR",
+      "cs.DC",
+      "cs.LG",
+      "cs.MA",
+      "cs.NI",
+      "cs.OS",
+      "cs.SE"
+    ]
+  },
+  "pagination": {
+    "start": 0,
+    "max_results_initial": 200,
+    "fallback_page_sizes": [
+      100,
+      50
+    ],
+    "advance": "start += number of returned entries",
+    "sort_parameters": "not set in archived code"
+  },
+  "cutoff_application": "published_utc post-retrieval filter; pinned-version eligibility separately recorded in Stage 2",
+  "acm_qualification": "Newly supplied expressions contain no proximity operator or explicit field prefix. Earlier proximity/field-fallback wording is not verified by an execution log and is withdrawn as a confirmed configuration.",
+  "seed_reference_mapping": {
+    "2607.21325": 3,
+    "2504.21034": 4,
+    "2605.06933": 5,
+    "2605.03213": 13
+  }
+}

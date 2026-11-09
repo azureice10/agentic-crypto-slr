@@ -1,0 +1,25 @@
+Category,Claim_QA_Stratum,Records,Claims,Reports,Exposure_Tier
+"1. Cryptographic Hashes, Merkle Trees & Hash-STARKs",All,36,36,36,Grover / Symmetric / Lattice FHE / STARK
+"1. Cryptographic Hashes, Merkle Trees & Hash-STARKs",READY,32,32,32,Grover / Symmetric / Lattice FHE / STARK
+10a-i. Unspecified Signed / Generic ZKP / HE (Suite NR),All,44,44,44,Unspecified Algorithm / Generic Scheme (Suite NR)
+10a-i. Unspecified Signed / Generic ZKP / HE (Suite NR),READY,36,36,36,Unspecified Algorithm / Generic Scheme (Suite NR)
+10a-ii. Rejected False Crypto Label / Unspecified Context (7 REJECT_CLASS),All,7,7,7,Non-Cryptographic Baselines & Excluded Own Non-Crypto
+10a-ii. Rejected False Crypto Label / Unspecified Context (7 REJECT_CLASS),READY,7,7,7,Non-Cryptographic Baselines & Excluded Own Non-Crypto
+10b. Excluded Non-Crypto Own Mechanism (8 E08-E09 + 2 Baselines),All,10,10,10,Non-Cryptographic Baselines & Excluded Own Non-Crypto
+10b. Excluded Non-Crypto Own Mechanism (8 E08-E09 + 2 Baselines),READY,10,10,10,Non-Cryptographic Baselines & Excluded Own Non-Crypto
+2. Identity & Transport Protocols (OAuth/JWT/DID/mTLS),All,33,33,33,Tier B: Conditional Protocol / Token Wrappers
+2. Identity & Transport Protocols (OAuth/JWT/DID/mTLS),READY,25,25,25,Tier B: Conditional Protocol / Token Wrappers
+3. Explicit ECC & Classical Signatures (Ed25519/ECDSA/RSA),All,42,40,40,Tier A: Direct Mathematical Shor Exposure
+3. Explicit ECC & Classical Signatures (Ed25519/ECDSA/RSA),READY,41,39,39,Tier A: Direct Mathematical Shor Exposure
+4. Symmetric MACs & Capability Tokens (HMAC/PRF),All,24,24,24,Grover / Symmetric / Lattice FHE / STARK
+4. Symmetric MACs & Capability Tokens (HMAC/PRF),READY,22,22,22,Grover / Symmetric / Lattice FHE / STARK
+5. Hardware Enclaves & Silicon Attestation (TEE/TPM),All,18,18,17,Tier C: Conditional Hardware Enclave Roots
+5. Hardware Enclaves & Silicon Attestation (TEE/TPM),READY,15,15,14,Tier C: Conditional Hardware Enclave Roots
+"6. Symmetric Enc., ORAM, MPC & Lattice FHE",All,13,11,11,Grover / Symmetric / Lattice FHE / STARK
+"6. Symmetric Enc., ORAM, MPC & Lattice FHE",READY,9,7,7,Grover / Symmetric / Lattice FHE / STARK
+7. Pairing & DLog ZK Proofs (Groth16/PLONK/ZKP),All,22,20,19,Tier A: Direct Mathematical Shor Exposure
+7. Pairing & DLog ZK Proofs (Groth16/PLONK/ZKP),READY,19,17,16,Tier A: Direct Mathematical Shor Exposure
+8. Classical RSA & Pairing/Threshold (RSA/BLS/IBE),All,18,18,18,Tier A: Direct Mathematical Shor Exposure
+8. Classical RSA & Pairing/Threshold (RSA/BLS/IBE),READY,17,17,17,Tier A: Direct Mathematical Shor Exposure
+9. Evaluated/Proposed PQC & Quantum Primitives,All,16,11,11,Evaluated or Proposed PQC / Quantum Constructions
+9. Evaluated/Proposed PQC & Quantum Primitives,READY,8,6,6,Evaluated or Proposed PQC / Quantum Constructions

@@ -1,0 +1,97 @@
+{
+  "release": "3.6.3",
+  "observed_on": "2026-11-03",
+  "sources": [
+    {
+      "source_name": "Stage_1/01_Search_Corpus_dan_Dedup/Stage1_Screening_Worksheet_926.csv",
+      "sha256": "379f19eac2fa4f792f7c7368c1e7d11d757e496b7c45391f3275d87994645324",
+      "bytes": 2122420
+    },
+    {
+      "source_name": "Stage_1/Stage1_Screening_Adjudikasi_Admin_926_v1.1.xlsx",
+      "sha256": "303f78c33549b913fbe13d4f5c5eb21de519ec6b6ef094f9fcd6532078d050fc",
+      "bytes": 951049,
+      "current_observation_sha256": "9ff10e130c870e744f5b86ec4e3de0aa0d7b5d1f3598f3263d3b11279eb1d483",
+      "current_observation_bytes": 676961,
+      "current_observation_note": "File identity differs from the imported snapshot. R2 decision labels are unchanged; one previously valid date is stored as Excel serial 46311 (2026-10-16). Imported snapshot identity remains in sha256. The 104 user-confirmed corrections are applied to the normalized export and logged separately."
+    },
+    {
+      "source_name": "Stage_2/Formulir_Ekstraksi_Data_Stage2_610_v1.2_READY.xlsx",
+      "sha256": "e14bec53871e5b7910dcc7b7739d5e72a34f57f9fc26a1c4c87d85e7d07a9248",
+      "bytes": 1219304
+    },
+    {
+      "source_name": "scripts/arxiv_slr_supplementary_pipeline.py",
+      "sha256": "7e8eb84ce6ed1a89ea652b079bea72b73d5e69dc4a086d634aa86faf03656241",
+      "bytes": 57743
+    },
+    {
+      "source_name": "Stage_1/01_Search_Corpus_dan_Dedup/export_ARXIV_ALL_RAW.csv",
+      "sha256": "e58f5de0eb711011199e7b38b8200bc27e251e5f304ba1199fba9332fab247cf",
+      "bytes": 7489802
+    },
+    {
+      "source_name": "Stage_1/01_Search_Corpus_dan_Dedup/ARXIV_S1_S2_S3_FILTERED_DEDUP.csv",
+      "sha256": "8ba9feeb852347782e1ed721bc12abe52ff0706e273fbdf1d22d9b5588988f7d",
+      "bytes": 1072327
+    },
+    {
+      "source_name": "author_query_register_note.txt",
+      "sha256": "0b5bcab8bffddcfc329e701adde58010eecf727b582e98e350a8f992598abf6d",
+      "bytes": 13778
+    }
+  ],
+  "normalized_exports": [
+    {
+      "path": "screening/arxiv_gate_pass_register.csv",
+      "sha256": "93cc1e7a2584644ebad3c7dcc2ea82623469a63e5120c1a33ae34a66641fdeef",
+      "rows": 529
+    },
+    {
+      "path": "screening/arxiv_query_occurrences.csv",
+      "sha256": "b2a337d099df1782e0b08004dbd747190b4354cf7b23c9290cdf288d5858ca26",
+      "rows": 4142
+    },
+    {
+      "path": "screening/stage1_register.csv",
+      "sha256": "aeac9d68a2e681af7a3bbda40828101844861a68892e8d29be35f90e4ffdde08",
+      "rows": 926,
+      "transformation": "104 R2_Decision_Date values corrected to 2026-10-16 by user confirmation; original values retained in protocol/screening_date_corrections.csv."
+    },
+    {
+      "path": "screening/stage2_adjudication_log.csv",
+      "sha256": "5dfe25b2c74cfd27bcc4abc07d82e961c76b9dbf1714aab20e39062f8c9e65cc",
+      "rows": 183
+    },
+    {
+      "path": "screening/stage2_family_links.csv",
+      "sha256": "8ba264fa68bda9d4b5c023be38ff176f55ddc266345512c56c11c9a3a40a5a3a",
+      "rows": 2
+    },
+    {
+      "path": "screening/stage2_fulltext_reviews.csv",
+      "sha256": "0d2088f44605d0ba2d5441faa7d3c1c2b103b8d06fa5b2eb0265433dbb2603cf",
+      "rows": 1220
+    },
+    {
+      "path": "screening/stage2_register.csv",
+      "sha256": "257c0d06f61a79cada4be8befca5111bef36908cd89c20c94594fc27ca95f1a4",
+      "rows": 610
+    },
+    {
+      "path": "screening/stage2_rigor_reviews.csv",
+      "sha256": "58d8553e31febac7cd9effd4bb361f1de439c37c969edc43916a328c67b055b1",
+      "rows": 694
+    }
+  ],
+  "note": "Original workbooks and the five canonical Stage 3 CSVs were not modified. The normalized Stage 1 export incorporates 104 explicitly confirmed date corrections; original values and the confirmation basis are retained in the correction ledger. XLSX formula caches are not treated as freshly recalculated QA.",
+  "editorial_corrections": [
+    {
+      "path": "protocol/screening_date_corrections.csv",
+      "sha256": "3896a0624cb9ec672be1f09fe3fa512992bec4e68838c450cc55bc0ddfb786ef",
+      "rows": 104,
+      "confirmed_on": "2026-11-03",
+      "basis": "Explicit user confirmation of 2026-10-16"
+    }
+  ]
+}

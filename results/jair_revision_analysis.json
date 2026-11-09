@@ -1,0 +1,98 @@
+{
+  "revision": "R3",
+  "date": "2026-11-04",
+  "analysis_status": "post hoc descriptive",
+  "canonical_sha256": {
+    "claims.csv": "6dbe5905662acb98c8598621f85743832d135fe55fa65460e520774d09e6e40e",
+    "rq3_latency_crosswalk.csv": "781e4adc987a3654f8a7fe8898c09f9399a6bd9b62715098bc18bb9bae8e9b1c",
+    "rq3_metrics.csv": "8613319bd3ca890beb7f8fc4f7eb444ed3746dbed87f7e65fd259dec16d699e4",
+    "rq4_dependencies.csv": "bfa4d5fa44af1652326d2db536ed1d8c69143fd438825b1fdf41228fbe1f6381",
+    "studies.csv": "dae7aef203d1518a4a2cbc2f8af6344b82afccab47d8215b3aac5dd649bc31c6"
+  },
+  "claims_per_report_distribution": {
+    "1": 314,
+    "2": 114,
+    "3": 14
+  },
+  "role_support_weighting": {
+    "mechanism": {
+      "claims": 346,
+      "reports": 328,
+      "supported_claims": 256,
+      "claim_support_percent": 73.98843930635837,
+      "mean_within_report_support_percent": 73.98373983739837
+    },
+    "attack_benchmark": {
+      "claims": 238,
+      "reports": 218,
+      "supported_claims": 226,
+      "claim_support_percent": 94.9579831932773,
+      "mean_within_report_support_percent": 95.41284403669725
+    }
+  },
+  "latency": [
+    {
+      "level": "L1",
+      "rows": 78,
+      "reports": 33,
+      "q1_ms": 0.2647915,
+      "median_ms": 1.7645,
+      "q3_ms": 18.275,
+      "report_median_ms": 4.3,
+      "mean_point_rows": 75,
+      "mean_point_median_ms": 1.82,
+      "excluding_discordant_rows": 78,
+      "excluding_discordant_median_ms": 1.7645
+    },
+    {
+      "level": "L2",
+      "rows": 51,
+      "reports": 32,
+      "q1_ms": 2.15,
+      "median_ms": 10.8,
+      "q3_ms": 32.55,
+      "report_median_ms": 11.15,
+      "mean_point_rows": 43,
+      "mean_point_median_ms": 14.2,
+      "excluding_discordant_rows": 51,
+      "excluding_discordant_median_ms": 10.8
+    },
+    {
+      "level": "L3",
+      "rows": 40,
+      "reports": 17,
+      "q1_ms": 12.42,
+      "median_ms": 262.88,
+      "q3_ms": 8977.5,
+      "report_median_ms": 100.0,
+      "mean_point_rows": 39,
+      "mean_point_median_ms": 173.86,
+      "excluding_discordant_rows": 38,
+      "excluding_discordant_median_ms": 920.95
+    },
+    {
+      "level": "L4",
+      "rows": 193,
+      "reports": 96,
+      "q1_ms": 80.0,
+      "median_ms": 1700.0,
+      "q3_ms": 10900.0,
+      "report_median_ms": 432.655,
+      "mean_point_rows": 180,
+      "mean_point_median_ms": 2035.0,
+      "excluding_discordant_rows": 192,
+      "excluding_discordant_median_ms": 1641.4
+    }
+  ],
+  "excluded_timer_sensitivity_ids": [
+    "R1-E03-MET-027",
+    "R1-E05-MET-063",
+    "R1-E05-MET-064"
+  ],
+  "all_four_boundaries": {
+    "claims": 80,
+    "supported": 61,
+    "UG": 56,
+    "supported_and_UG": 38
+  }
+}

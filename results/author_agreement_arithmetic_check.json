@@ -1,0 +1,102 @@
+[
+  {
+    "dimension": "PQC_GROUPED",
+    "computed_Po_percent": 96.60633484162896,
+    "Po_rounding_matches": true,
+    "raw_pair_replication": false,
+    "binary_2x2_tables_compatible_with_rounded_coefficients": 0,
+    "tables_compatible_with_kappa_alone": 0,
+    "tables_compatible_with_AC1_alone": 0,
+    "nearest_feasible_coefficient_pair_not_a_correction": {
+      "distance": 0.007103786400570078,
+      "kappa": 0.635594151918215,
+      "AC1": 0.962602061681215
+    }
+  },
+  {
+    "dimension": "AD_INCIDENCE",
+    "computed_Po_percent": 89.59276018099548,
+    "Po_rounding_matches": true,
+    "raw_pair_replication": false,
+    "binary_2x2_tables_compatible_with_rounded_coefficients": 4,
+    "tables_compatible_with_kappa_alone": 4,
+    "tables_compatible_with_AC1_alone": 94,
+    "nearest_feasible_coefficient_pair_not_a_correction": {
+      "distance": 1.5313000520503217e-05,
+      "kappa": 0.06810890090750794,
+      "AC1": 0.8834935879069874
+    }
+  },
+  {
+    "dimension": "BOUNDARY_MULTI_SINGLE",
+    "computed_Po_percent": 87.55656108597285,
+    "Po_rounding_matches": true,
+    "raw_pair_replication": false,
+    "binary_2x2_tables_compatible_with_rounded_coefficients": 4,
+    "tables_compatible_with_kappa_alone": 4,
+    "tables_compatible_with_AC1_alone": 112,
+    "nearest_feasible_coefficient_pair_not_a_correction": {
+      "distance": 7.004950233663321e-05,
+      "kappa": 0.36317912715460754,
+      "AC1": 0.8453508233430559
+    }
+  },
+  {
+    "dimension": "BOUNDARY_FIVE_CLASS",
+    "computed_Po_percent": 87.10407239819004,
+    "Po_rounding_matches": true,
+    "raw_pair_replication": false
+  },
+  {
+    "dimension": "SUPPORT_BINARY",
+    "computed_Po_percent": 83.0316742081448,
+    "Po_rounding_matches": true,
+    "raw_pair_replication": false,
+    "binary_2x2_tables_compatible_with_rounded_coefficients": 0,
+    "tables_compatible_with_kappa_alone": 0,
+    "tables_compatible_with_AC1_alone": 0,
+    "nearest_feasible_coefficient_pair_not_a_correction": {
+      "distance": 0.027519713424431713,
+      "kappa": 0.28859607708485396,
+      "AC1": 0.7806763636604223
+    }
+  },
+  {
+    "dimension": "CLAIM_CATEGORY",
+    "computed_Po_percent": 72.39819004524887,
+    "Po_rounding_matches": true,
+    "raw_pair_replication": false
+  },
+  {
+    "dimension": "DG_INCIDENCE",
+    "computed_Po_percent": 67.19457013574662,
+    "Po_rounding_matches": true,
+    "raw_pair_replication": false,
+    "binary_2x2_tables_compatible_with_rounded_coefficients": 4,
+    "tables_compatible_with_kappa_alone": 12,
+    "tables_compatible_with_AC1_alone": 292,
+    "nearest_feasible_coefficient_pair_not_a_correction": {
+      "distance": 3.117492562332291e-05,
+      "kappa": 0.16971110247441387,
+      "AC1": 0.45817992754879056
+    }
+  },
+  {
+    "dimension": "LIFECYCLE_STAGE",
+    "computed_Po_percent": 52.03619909502263,
+    "Po_rounding_matches": true,
+    "raw_pair_replication": false
+  },
+  {
+    "dimension": "FORMAL_EVIDENCE_TYPE",
+    "computed_Po_percent": 52.03619909502263,
+    "Po_rounding_matches": true,
+    "raw_pair_replication": false
+  },
+  {
+    "dimension": "IMPLEMENTATION_MATURITY",
+    "computed_Po_percent": 52.03619909502263,
+    "Po_rounding_matches": true,
+    "raw_pair_replication": false
+  }
+]

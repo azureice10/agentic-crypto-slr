@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this dataset, protocol, or reproducibility code, please cite this supplementary package and the companion SLR manuscript."
+title: "Supplementary Dataset and Reproducibility Package for: Cryptographic Assurance Gaps in LLM-Based Agentic Systems: A Systematic Literature Review"
+version: "3.6.3"
+date-released: 2026-11-03
+license:
+  - "CC-BY-4.0"
+  - "MIT"
+authors:
+  - family-names: "Kabetta"
+    given-names: "Herman"
+    role: "Reviewer 1 (Cryptographic Primitives, Formal Evidence & RQ4 Lead)"
+  - family-names: "Buana"
+    given-names: "I Komang Setia"
+    role: "Reviewer 2 (Architectural Boundaries, Maturity & RQ3 Lead)"
+  - family-names: "Budiarto"
+    given-names: "Raden"
+    role: "Lead Adjudicator (Consensus Resolution & Final Sign-Off)"
+keywords:
+  - "Large Language Models"
+  - "Agentic AI Security"
+  - "Model Context Protocol"
+  - "Cryptographic Control Planes"
+  - "Capability-Based Delegation"
+  - "Trusted Execution Environments"
+  - "Post-Quantum Cryptography"

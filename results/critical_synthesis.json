@@ -1,0 +1,1050 @@
+{
+  "analysis": "Post hoc descriptive synthesis; no primary-source recoding, causal estimates, or new human sign-off",
+  "source_sha256": {
+    "studies": "dae7aef203d1518a4a2cbc2f8af6344b82afccab47d8215b3aac5dd649bc31c6",
+    "claims": "6dbe5905662acb98c8598621f85743832d135fe55fa65460e520774d09e6e40e",
+    "rq3_metrics": "8613319bd3ca890beb7f8fc4f7eb444ed3746dbed87f7e65fd259dec16d699e4",
+    "rq3_latency_crosswalk": "781e4adc987a3654f8a7fe8898c09f9399a6bd9b62715098bc18bb9bae8e9b1c",
+    "rq4_dependencies": "bfa4d5fa44af1652326d2db536ed1d8c69143fd438825b1fdf41228fbe1f6381"
+  },
+  "corpus": {
+    "claims": 584,
+    "reports": 442,
+    "ready": 530,
+    "supported": 482,
+    "DG": 240,
+    "AD": 515,
+    "UG": 222,
+    "focused_formal": 29,
+    "broad_proof_including_theoretic": 83,
+    "deployment": 26,
+    "stage45": 7
+  },
+  "byRole": {
+    "Mechanism/framework/prototype": {
+      "All": {
+        "claims": 346,
+        "reports": 328,
+        "ready": 298,
+        "supported": 256,
+        "DG": 81,
+        "AD": 343,
+        "UG": 141,
+        "focused_formal": 26,
+        "broad_proof_including_theoretic": 73,
+        "deployment": 14,
+        "stage45": 4
+      },
+      "READY": {
+        "claims": 298,
+        "reports": 285,
+        "ready": 298,
+        "supported": 256,
+        "DG": 69,
+        "AD": 296,
+        "UG": 94,
+        "focused_formal": 25,
+        "broad_proof_including_theoretic": 71,
+        "deployment": 14,
+        "stage45": 2
+      }
+    },
+    "Attack/benchmark/attack-surface": {
+      "All": {
+        "claims": 238,
+        "reports": 218,
+        "ready": 232,
+        "supported": 226,
+        "DG": 159,
+        "AD": 172,
+        "UG": 81,
+        "focused_formal": 3,
+        "broad_proof_including_theoretic": 10,
+        "deployment": 12,
+        "stage45": 3
+      },
+      "READY": {
+        "claims": 232,
+        "reports": 214,
+        "ready": 232,
+        "supported": 225,
+        "DG": 157,
+        "AD": 167,
+        "UG": 75,
+        "focused_formal": 2,
+        "broad_proof_including_theoretic": 9,
+        "deployment": 11,
+        "stage45": 2
+      }
+    }
+  },
+  "byStream": {
+    "M": {
+      "All": {
+        "claims": 129,
+        "reports": 107,
+        "ready": 104,
+        "supported": 90,
+        "DG": 27,
+        "AD": 127,
+        "UG": 51,
+        "focused_formal": 8,
+        "broad_proof_including_theoretic": 20,
+        "deployment": 7,
+        "stage45": 3
+      },
+      "READY": {
+        "claims": 104,
+        "reports": 87,
+        "ready": 104,
+        "supported": 90,
+        "DG": 20,
+        "AD": 102,
+        "UG": 26,
+        "focused_formal": 8,
+        "broad_proof_including_theoretic": 20,
+        "deployment": 7,
+        "stage45": 2
+      }
+    },
+    "A": {
+      "All": {
+        "claims": 290,
+        "reports": 228,
+        "ready": 275,
+        "supported": 250,
+        "DG": 153,
+        "AD": 231,
+        "UG": 123,
+        "focused_formal": 7,
+        "broad_proof_including_theoretic": 25,
+        "deployment": 11,
+        "stage45": 0
+      },
+      "READY": {
+        "claims": 275,
+        "reports": 221,
+        "ready": 275,
+        "supported": 250,
+        "DG": 148,
+        "AD": 218,
+        "UG": 109,
+        "focused_formal": 7,
+        "broad_proof_including_theoretic": 24,
+        "deployment": 11,
+        "stage45": 0
+      }
+    },
+    "M_AND_A": {
+      "All": {
+        "claims": 165,
+        "reports": 107,
+        "ready": 151,
+        "supported": 142,
+        "DG": 60,
+        "AD": 157,
+        "UG": 48,
+        "focused_formal": 14,
+        "broad_proof_including_theoretic": 38,
+        "deployment": 8,
+        "stage45": 4
+      },
+      "READY": {
+        "claims": 151,
+        "reports": 98,
+        "ready": 151,
+        "supported": 141,
+        "DG": 58,
+        "AD": 143,
+        "UG": 34,
+        "focused_formal": 12,
+        "broad_proof_including_theoretic": 36,
+        "deployment": 7,
+        "stage45": 2
+      }
+    }
+  },
+  "byTierRole": {
+    "TIER_1_PEER_REVIEWED / Mechanism/framework/prototype": {
+      "claims": 183,
+      "reports": 174,
+      "ready": 155,
+      "supported": 137,
+      "DG": 8,
+      "AD": 180,
+      "UG": 51,
+      "focused_formal": 7,
+      "broad_proof_including_theoretic": 16,
+      "deployment": 5,
+      "stage45": 2
+    },
+    "TIER_2_ARXIV_PREPRINT / Mechanism/framework/prototype": {
+      "claims": 163,
+      "reports": 154,
+      "ready": 143,
+      "supported": 119,
+      "DG": 73,
+      "AD": 163,
+      "UG": 90,
+      "focused_formal": 19,
+      "broad_proof_including_theoretic": 57,
+      "deployment": 9,
+      "stage45": 2
+    },
+    "TIER_2_ARXIV_PREPRINT / Attack/benchmark/attack-surface": {
+      "claims": 150,
+      "reports": 132,
+      "ready": 144,
+      "supported": 141,
+      "DG": 85,
+      "AD": 143,
+      "UG": 73,
+      "focused_formal": 3,
+      "broad_proof_including_theoretic": 10,
+      "deployment": 11,
+      "stage45": 3
+    },
+    "TIER_1_PEER_REVIEWED / Attack/benchmark/attack-surface": {
+      "claims": 88,
+      "reports": 86,
+      "ready": 88,
+      "supported": 85,
+      "DG": 74,
+      "AD": 29,
+      "UG": 8,
+      "focused_formal": 0,
+      "broad_proof_including_theoretic": 0,
+      "deployment": 1,
+      "stage45": 0
+    }
+  },
+  "supportQA": [
+    {
+      "qa": "READY",
+      "claims": 530,
+      "reports": 406,
+      "ready": 530,
+      "supported": 481,
+      "DG": 226,
+      "AD": 463,
+      "UG": 169,
+      "focused_formal": 27,
+      "broad_proof_including_theoretic": 80,
+      "deployment": 25,
+      "stage45": 4
+    },
+    {
+      "qa": "FLAGGED",
+      "claims": 54,
+      "reports": 50,
+      "ready": 0,
+      "supported": 1,
+      "DG": 14,
+      "AD": 52,
+      "UG": 53,
+      "focused_formal": 2,
+      "broad_proof_including_theoretic": 3,
+      "deployment": 1,
+      "stage45": 3
+    }
+  ],
+  "supportUG": [
+    {
+      "support": "SUPPORTED_WITHIN_SCOPE",
+      "claims": 482,
+      "reports": 377,
+      "ready": 481,
+      "supported": 482,
+      "DG": 210,
+      "AD": 416,
+      "UG": 125,
+      "focused_formal": 25,
+      "broad_proof_including_theoretic": 73,
+      "deployment": 23,
+      "stage45": 4
+    },
+    {
+      "support": "PARTIALLY_SUPPORTED",
+      "claims": 101,
+      "reports": 94,
+      "ready": 49,
+      "supported": 0,
+      "DG": 29,
+      "AD": 99,
+      "UG": 96,
+      "focused_formal": 4,
+      "broad_proof_including_theoretic": 10,
+      "deployment": 3,
+      "stage45": 3
+    },
+    {
+      "support": "NOT_SUPPORTED",
+      "claims": 1,
+      "reports": 1,
+      "ready": 0,
+      "supported": 0,
+      "DG": 1,
+      "AD": 0,
+      "UG": 1,
+      "focused_formal": 0,
+      "broad_proof_including_theoretic": 0,
+      "deployment": 0,
+      "stage45": 0
+    }
+  ],
+  "reportIndicators": {
+    "All": {
+      "reports": 442,
+      "any_UG": 202,
+      "any_focused_formal": 27
+    },
+    "READY": {
+      "reports": 406,
+      "any_UG": 159,
+      "any_focused_formal": 26
+    }
+  },
+  "composition": {
+    "field_type": "Free-text appraisal, not a standardized composition-proof verdict; no count of end-to-end verified systems can be inferred.",
+    "four_boundaries": {
+      "claims": 80,
+      "reports": 78,
+      "ready": 71,
+      "supported": 61,
+      "DG": 40,
+      "AD": 80,
+      "UG": 56,
+      "focused_formal": 7,
+      "broad_proof_including_theoretic": 18,
+      "deployment": 3,
+      "stage45": 0
+    },
+    "four_boundaries_ready": {
+      "claims": 71,
+      "reports": 69,
+      "ready": 71,
+      "supported": 61,
+      "DG": 35,
+      "AD": 71,
+      "UG": 47,
+      "focused_formal": 6,
+      "broad_proof_including_theoretic": 17,
+      "deployment": 3,
+      "stage45": 0
+    }
+  },
+  "latency": [
+    {
+      "level": "L2: Per-Request Policy / Gate Check",
+      "qa": "All",
+      "n": 61,
+      "reports": 38,
+      "observation_median_ms": 12.4,
+      "report_median_ms": 16.3,
+      "largest_report_n": 9,
+      "top3_reports_n": 17,
+      "mean_point_n": 51,
+      "mean_point_median_ms": 15.1,
+      "timer": {
+        "L2: Per-Request Policy / Gate Check": 61
+      },
+      "statistic": {
+        "MEDIAN_P50": 5,
+        "MEAN_OR_POINT_REPORTED": 51,
+        "P95_TAIL": 4,
+        "P99_TAIL": 1
+      },
+      "timer_field_discrepancies": []
+    },
+    {
+      "level": "L2: Per-Request Policy / Gate Check",
+      "qa": "READY",
+      "n": 51,
+      "reports": 32,
+      "observation_median_ms": 10.8,
+      "report_median_ms": 11.15,
+      "largest_report_n": 9,
+      "top3_reports_n": 17,
+      "mean_point_n": 43,
+      "mean_point_median_ms": 14.2,
+      "timer": {
+        "L2: Per-Request Policy / Gate Check": 51
+      },
+      "statistic": {
+        "MEDIAN_P50": 5,
+        "MEAN_OR_POINT_REPORTED": 43,
+        "P95_TAIL": 3
+      },
+      "timer_field_discrepancies": []
+    },
+    {
+      "level": "L3: Session / Enclave / Consensus / Proof Setup",
+      "qa": "All",
+      "n": 42,
+      "reports": 19,
+      "observation_median_ms": 262.88,
+      "report_median_ms": 100,
+      "largest_report_n": 6,
+      "top3_reports_n": 16,
+      "mean_point_n": 41,
+      "mean_point_median_ms": 173.86,
+      "timer": {
+        "L3: Session / Enclave / Consensus / Proof Setup": 40,
+        "L2: Per-Request Policy / Gate Check": 2
+      },
+      "statistic": {
+        "MEDIAN_P50": 1,
+        "MEAN_OR_POINT_REPORTED": 41
+      },
+      "timer_field_discrepancies": [
+        {
+          "Metric_ID": "R1-E05-MET-063",
+          "recorded_Dim1": "L2: Per-Request Policy / Gate Check",
+          "final_level": "L3: Session / Enclave / Consensus / Proof Setup"
+        },
+        {
+          "Metric_ID": "R1-E05-MET-064",
+          "recorded_Dim1": "L2: Per-Request Policy / Gate Check",
+          "final_level": "L3: Session / Enclave / Consensus / Proof Setup"
+        }
+      ]
+    },
+    {
+      "level": "L3: Session / Enclave / Consensus / Proof Setup",
+      "qa": "READY",
+      "n": 40,
+      "reports": 17,
+      "observation_median_ms": 262.88,
+      "report_median_ms": 100,
+      "largest_report_n": 6,
+      "top3_reports_n": 16,
+      "mean_point_n": 39,
+      "mean_point_median_ms": 173.86,
+      "timer": {
+        "L3: Session / Enclave / Consensus / Proof Setup": 38,
+        "L2: Per-Request Policy / Gate Check": 2
+      },
+      "statistic": {
+        "MEDIAN_P50": 1,
+        "MEAN_OR_POINT_REPORTED": 39
+      },
+      "timer_field_discrepancies": [
+        {
+          "Metric_ID": "R1-E05-MET-063",
+          "recorded_Dim1": "L2: Per-Request Policy / Gate Check",
+          "final_level": "L3: Session / Enclave / Consensus / Proof Setup"
+        },
+        {
+          "Metric_ID": "R1-E05-MET-064",
+          "recorded_Dim1": "L2: Per-Request Policy / Gate Check",
+          "final_level": "L3: Session / Enclave / Consensus / Proof Setup"
+        }
+      ]
+    },
+    {
+      "level": "L4: End-to-End Agent Workflow Runtime",
+      "qa": "All",
+      "n": 206,
+      "reports": 105,
+      "observation_median_ms": 1125,
+      "report_median_ms": 351,
+      "largest_report_n": 16,
+      "top3_reports_n": 37,
+      "mean_point_n": 193,
+      "mean_point_median_ms": 1700,
+      "timer": {
+        "L4: End-to-End Agent Workflow Runtime": 205,
+        "NON_ONLINE_OR_EXCLUDED_STRATUM": 1
+      },
+      "statistic": {
+        "MEAN_OR_POINT_REPORTED": 193,
+        "P95_TAIL": 4,
+        "MEDIAN_P50": 9
+      },
+      "timer_field_discrepancies": [
+        {
+          "Metric_ID": "R1-E03-MET-027",
+          "recorded_Dim1": "NON_ONLINE_OR_EXCLUDED_STRATUM",
+          "final_level": "L4: End-to-End Agent Workflow Runtime"
+        }
+      ]
+    },
+    {
+      "level": "L4: End-to-End Agent Workflow Runtime",
+      "qa": "READY",
+      "n": 193,
+      "reports": 96,
+      "observation_median_ms": 1700,
+      "report_median_ms": 432.655,
+      "largest_report_n": 16,
+      "top3_reports_n": 37,
+      "mean_point_n": 180,
+      "mean_point_median_ms": 2035,
+      "timer": {
+        "L4: End-to-End Agent Workflow Runtime": 192,
+        "NON_ONLINE_OR_EXCLUDED_STRATUM": 1
+      },
+      "statistic": {
+        "MEAN_OR_POINT_REPORTED": 180,
+        "P95_TAIL": 4,
+        "MEDIAN_P50": 9
+      },
+      "timer_field_discrepancies": [
+        {
+          "Metric_ID": "R1-E03-MET-027",
+          "recorded_Dim1": "NON_ONLINE_OR_EXCLUDED_STRATUM",
+          "final_level": "L4: End-to-End Agent Workflow Runtime"
+        }
+      ]
+    },
+    {
+      "level": "L1: Primitive / Crypto Micro-Op",
+      "qa": "All",
+      "n": 90,
+      "reports": 39,
+      "observation_median_ms": 1.7995,
+      "report_median_ms": 3.8,
+      "largest_report_n": 8,
+      "top3_reports_n": 22,
+      "mean_point_n": 87,
+      "mean_point_median_ms": 1.82,
+      "timer": {
+        "L1: Primitive / Crypto Micro-Op": 90
+      },
+      "statistic": {
+        "MEAN_OR_POINT_REPORTED": 87,
+        "MEDIAN_P50": 2,
+        "P99_TAIL": 1
+      },
+      "timer_field_discrepancies": []
+    },
+    {
+      "level": "L1: Primitive / Crypto Micro-Op",
+      "qa": "READY",
+      "n": 78,
+      "reports": 33,
+      "observation_median_ms": 1.7645,
+      "report_median_ms": 4.3,
+      "largest_report_n": 8,
+      "top3_reports_n": 22,
+      "mean_point_n": 75,
+      "mean_point_median_ms": 1.82,
+      "timer": {
+        "L1: Primitive / Crypto Micro-Op": 78
+      },
+      "statistic": {
+        "MEAN_OR_POINT_REPORTED": 75,
+        "MEDIAN_P50": 2,
+        "P99_TAIL": 1
+      },
+      "timer_field_discrepancies": []
+    }
+  ],
+  "pqc": {
+    "All": {
+      "active_records": 266,
+      "active_claims": 231,
+      "active_reports": 228,
+      "stage45": {
+        "claims": 7,
+        "reports": 4,
+        "ready": 4,
+        "supported": 4,
+        "DG": 0,
+        "AD": 7,
+        "UG": 5,
+        "focused_formal": 0,
+        "broad_proof_including_theoretic": 0,
+        "deployment": 2,
+        "stage45": 7
+      },
+      "stage45_direct_link": {
+        "claims": 4,
+        "reports": 4,
+        "ready": 2,
+        "supported": 2,
+        "DG": 0,
+        "AD": 4,
+        "UG": 3,
+        "focused_formal": 0,
+        "broad_proof_including_theoretic": 0,
+        "deployment": 1,
+        "stage45": 4
+      },
+      "stage45_in_crypto_reports": {
+        "claims": 7,
+        "reports": 4,
+        "ready": 4,
+        "supported": 4,
+        "DG": 0,
+        "AD": 7,
+        "UG": 5,
+        "focused_formal": 0,
+        "broad_proof_including_theoretic": 0,
+        "deployment": 2,
+        "stage45": 7
+      },
+      "lifetime_exact_missing": 150,
+      "active_lifetime": {
+        "EPHEMERAL_SESSION": 8,
+        "NOT_REPORTED": 26,
+        "Example sessionkey validity2h/1h/5min by configuration": 1,
+        "Session-key validity per Auth configuration": 1,
+        "NR": 124,
+        "Long-term audit purpose; exact retention NR": 1,
+        "Short-lived; concrete TTL NR": 1,
+        "Short-lived; exact TTL NR": 1,
+        "Audit retention policy-dependent; exact duration NR": 1,
+        "Identity lifetime NR": 1,
+        "Long-term security is stated as motivation p.6; exact retention NR": 1,
+        "Ephemeralworkload/shortlivedtokens;TTLNR": 1,
+        "Session-scoped": 1,
+        "Longlivedidentity with ephemeralsessions": 1,
+        "Publishedartifact;retentionNR": 1,
+        "Longlivedsealedsecrets and shortlivedIETtokens": 1,
+        "ShortlivedSVID/JITcredentials": 1,
+        "Sessionnonce and persistentauthorizeddefinition": 1,
+        "Token<=15min": 1,
+        "Shortlivedaccess-token;TTLNR": 1,
+        "Registrationrenewal/certificaterevocationpolicy": 1,
+        "Archivedauditlogsyears as authorstates": 1,
+        "Shorttrafficconfidentialityhalf-life as authorstates": 1,
+        "Memory/session;retentionNR": 1,
+        "SSH30days/API14days;additivewindow5min,prune0min": 1,
+        "Approval timeout10min standard /3min HIGH-CRITICAL;single use": 1,
+        "LonglivedDID;VCvaliditydependingissuer": 1,
+        "Shortliveddecisiontoken;examplemitigationbundle60s": 1,
+        "Snapshotretentionpolicy;offlinefreshnessoptional": 1,
+        "Shortvaliditywindow,TTLNR": 1,
+        "Short time windows specified by protocol": 1,
+        "Expiry/use budget caveats": 1,
+        "Session key lifetime NR": 1,
+        "EAAI TTL300s illustrative pipeline": 1,
+        "Task estimate plus20%; short-livedtasktokens": 1,
+        "90day retention; assurance anchored to trustedloghead": 1,
+        "30s freshness window": 1,
+        "ExistingUMA/RPTexpiry plus delegation constraints; durationNR": 1,
+        "Authorasset horizons p2:identity3-5y/servercert5-10y/root20-30y": 1,
+        "Tokenexp; replaycache600s config": 1,
+        "JWT-SVID2 min;accessTTLboundedcache": 1,
+        "Expiringgrants;cache freshness policy": 1,
+        "1hourcertificateTTL;30 minrotation": 1,
+        "5mintokenTTL;not absolute anti-replay": 1,
+        "Default token expiry24h; shorter lifetimes suggested p.8": 1,
+        "Example delta_h10s,Wmax30s; bounded validity is not a PQ protection-horizon measurement": 1,
+        "PERMANENT_AUDIT": 27,
+        "LONG_TERM_IDENTITY": 6,
+        "SHORT_LIVED_TOKEN": 24,
+        "LONG_TERM_CREDENTIAL": 8
+      },
+      "active_source_provenance": {
+        "NOT_EVALUATED_IN_SOURCE_REVIEWER_CLASSIFIED": 152,
+        "SOURCE_STATED_OR_EVALUATED": 15,
+        "REVIEWER_CONDITIONAL_INFERENCE": 9,
+        "BATCH_E06_E09_AUTO_INFERRED_FROM_STAGE0": 90
+      },
+      "active_exposure": {
+        "Grover / Symmetric / Lattice FHE / STARK": 73,
+        "Tier A: Direct Mathematical Shor Exposure": 82,
+        "Unspecified Algorithm / Generic Scheme (Suite NR)": 44,
+        "Tier B: Conditional Protocol / Token Wrappers": 33,
+        "Tier C: Conditional Hardware Enclave Roots": 18,
+        "Evaluated or Proposed PQC / Quantum Constructions": 16
+      }
+    },
+    "READY": {
+      "active_records": 224,
+      "active_claims": 197,
+      "active_reports": 195,
+      "stage45": {
+        "claims": 4,
+        "reports": 2,
+        "ready": 4,
+        "supported": 4,
+        "DG": 0,
+        "AD": 4,
+        "UG": 2,
+        "focused_formal": 0,
+        "broad_proof_including_theoretic": 0,
+        "deployment": 1,
+        "stage45": 4
+      },
+      "stage45_direct_link": {
+        "claims": 2,
+        "reports": 2,
+        "ready": 2,
+        "supported": 2,
+        "DG": 0,
+        "AD": 2,
+        "UG": 1,
+        "focused_formal": 0,
+        "broad_proof_including_theoretic": 0,
+        "deployment": 1,
+        "stage45": 2
+      },
+      "stage45_in_crypto_reports": {
+        "claims": 4,
+        "reports": 2,
+        "ready": 4,
+        "supported": 4,
+        "DG": 0,
+        "AD": 4,
+        "UG": 2,
+        "focused_formal": 0,
+        "broad_proof_including_theoretic": 0,
+        "deployment": 1,
+        "stage45": 4
+      },
+      "lifetime_exact_missing": 121,
+      "active_lifetime": {
+        "EPHEMERAL_SESSION": 6,
+        "NOT_REPORTED": 24,
+        "Example sessionkey validity2h/1h/5min by configuration": 1,
+        "Session-key validity per Auth configuration": 1,
+        "NR": 97,
+        "Long-term audit purpose; exact retention NR": 1,
+        "Short-lived; concrete TTL NR": 1,
+        "Short-lived; exact TTL NR": 1,
+        "Audit retention policy-dependent; exact duration NR": 1,
+        "Identity lifetime NR": 1,
+        "Long-term security is stated as motivation p.6; exact retention NR": 1,
+        "Ephemeralworkload/shortlivedtokens;TTLNR": 1,
+        "Session-scoped": 1,
+        "Longlivedidentity with ephemeralsessions": 1,
+        "Publishedartifact;retentionNR": 1,
+        "Longlivedsealedsecrets and shortlivedIETtokens": 1,
+        "Sessionnonce and persistentauthorizeddefinition": 1,
+        "Shortlivedaccess-token;TTLNR": 1,
+        "Registrationrenewal/certificaterevocationpolicy": 1,
+        "Archivedauditlogsyears as authorstates": 1,
+        "Shorttrafficconfidentialityhalf-life as authorstates": 1,
+        "Memory/session;retentionNR": 1,
+        "SSH30days/API14days;additivewindow5min,prune0min": 1,
+        "Approval timeout10min standard /3min HIGH-CRITICAL;single use": 1,
+        "LonglivedDID;VCvaliditydependingissuer": 1,
+        "Shortliveddecisiontoken;examplemitigationbundle60s": 1,
+        "Snapshotretentionpolicy;offlinefreshnessoptional": 1,
+        "Shortvaliditywindow,TTLNR": 1,
+        "Short time windows specified by protocol": 1,
+        "Expiry/use budget caveats": 1,
+        "Session key lifetime NR": 1,
+        "EAAI TTL300s illustrative pipeline": 1,
+        "30s freshness window": 1,
+        "ExistingUMA/RPTexpiry plus delegation constraints; durationNR": 1,
+        "Tokenexp; replaycache600s config": 1,
+        "JWT-SVID2 min;accessTTLboundedcache": 1,
+        "Expiringgrants;cache freshness policy": 1,
+        "1hourcertificateTTL;30 minrotation": 1,
+        "5mintokenTTL;not absolute anti-replay": 1,
+        "Default token expiry24h; shorter lifetimes suggested p.8": 1,
+        "Example delta_h10s,Wmax30s; bounded validity is not a PQ protection-horizon measurement": 1,
+        "PERMANENT_AUDIT": 25,
+        "LONG_TERM_IDENTITY": 4,
+        "SHORT_LIVED_TOKEN": 22,
+        "LONG_TERM_CREDENTIAL": 8
+      },
+      "active_source_provenance": {
+        "NOT_EVALUATED_IN_SOURCE_REVIEWER_CLASSIFIED": 126,
+        "SOURCE_STATED_OR_EVALUATED": 6,
+        "REVIEWER_CONDITIONAL_INFERENCE": 9,
+        "BATCH_E06_E09_AUTO_INFERRED_FROM_STAGE0": 83
+      },
+      "active_exposure": {
+        "Grover / Symmetric / Lattice FHE / STARK": 63,
+        "Tier A: Direct Mathematical Shor Exposure": 77,
+        "Unspecified Algorithm / Generic Scheme (Suite NR)": 36,
+        "Tier B: Conditional Protocol / Token Wrappers": 25,
+        "Tier C: Conditional Hardware Enclave Roots": 15,
+        "Evaluated or Proposed PQC / Quantum Constructions": 8
+      }
+    }
+  },
+  "tool_supported_records": [
+    {
+      "Claim_ID": "CLM-0028",
+      "Claim_QA": "READY",
+      "Study_Title": "Toward Agentic IAM: A Probabilistic Authorization Framework for Least Privilege AI Workflows",
+      "Composition_Evidence": "Bukti dalam sumber: TOOL_SUPPORTED_VERIFICATION. Proof sketches/PRISM statements pp.3-4 dan AWS Lambda patching prototype; tidak tersedia state counts atau model artifact yang direplikasi dalam review ini. Cross-boundary workflow tidak otomatis membuktikan komposisi jaminan; review ini tidak mereplikasi proof/model/experiment.",
+      "Security_Property_Guaranteed": "Least-privilege optimization dan governance properties secara kondisional pada risk model",
+      "Evidence_Quote_and_Page": "PDF pp.2-4 equations/properties/PRISM; p.5 Tables 1-2 dan implementation | Parafrasa sumber: Probabilistic authorization framework mengurangi IAM privileges dan menyatakan pemeriksaan PRISM terhadap governance properties. || [R2]: PARAFRASA dan audit langsung PDF ter-pin. PDF p. 1 Abstract (Bayesian belief, MDP, CVaR, sub-second phase latency, ~40% privilege reduction); pp. 2–3 Section 3 (Formal Model Eq. 1–7); pp. 3–4 Section 4 & Table 1 (Properties 1–4 & Proof Sketches); p. 5 Section 5, Table 2 & Figure 1 (39–46% privilege reduction, 31–39% risk reduction, 0.45s Analyze, 0.32s Impact, 1.3s average policy convergence)."
+    },
+    {
+      "Claim_ID": "CLM-0052",
+      "Claim_QA": "READY",
+      "Study_Title": "Securing LLM-Agent Long-Term Memory Against Poisoning: Non-Malleable, Origin-Bound Authority with Machine-Checked Guarantees",
+      "Composition_Evidence": "Model-to-monitor checks and empirical tests support limited correspondence; do not promote bounded TLC checking into a fully mechanized unbounded end-to-end theorem.",
+      "Security_Property_Guaranteed": "Within the bounded model, untrusted-origin memory cannot authorize consequential actions without permitted elevation; observed benchmark resistance is conditional on origin/corroborator integrity.",
+      "Evidence_Quote_and_Page": "PARAPHRASE; PDF p.2 Assumption A1; pp.3-4 Algorithm 1 and Theorems 1-3; pp.5-8 evaluation; pp.10-11 Table X and Section IX. || PARAFRASA dan kutipan metrik terukur. PDF p. 2 Section II (Assumption A1); p. 4 Section IV & Theorems 1–3 (TLC verification over 3,270 states & inductive invariant IndInv); pp. 5–7 Section VI, Tables I–V & Figures 2–5 (8 frontier models, 0.0% laundering ASR vs up to 68–84% baselines, 0/1,152 on MemMorph/MemoryGraft/Trojan Hippo/Conv. Trojan, ablation of M1–M4)."
+    },
+    {
+      "Claim_ID": "CLM-0079",
+      "Claim_QA": "READY",
+      "Study_Title": "Trusted AI Agents in the Cloud",
+      "Composition_Evidence": "Formal attestation model is narrower than all system isolation/policy/audit claims; evaluation/model correspondence must be reviewed separately.",
+      "Security_Property_Guaranteed": "Symbolic correspondence/secrecy properties for platform trust and request/result configuration binding under the defined attestation model.",
+      "Evidence_Quote_and_Page": "PARAPHRASE; PDF p.11 Section 8.2; p.12 Table 6 and Section 9 implementation/testbed; p.15 policy overhead. || PARAFRASA dan kutipan metrik terukur. PDF pp. 5–11 Sections 4–7 & Tables 1–6 (VMPL + vTPM + CGPU architecture, differential attestation, HMAC trusted counter, formal action-fact model); pp. 12–15 Section 9, Figures 9–10 & Table 10 (0.10 s boot time vs 18.12 s CVM [181.2x], 7% / 36% per-turn latency overhead, 195 vs 198 tok/s throughput, Table 10: ASR 90–100% reduced to 0%)."
+    },
+    {
+      "Claim_ID": "CLM-0109",
+      "Claim_QA": "READY",
+      "Study_Title": "Introducing Safe LLM-Agent Execution via Typed Tool Mediation and World-Effect Evaluation",
+      "Composition_Evidence": "Bukti dalam sumber: TOOL_SUPPORTED_VERIFICATION. TLC: 5563 generated/103 distinct states/depth 3; tidak ada refinement proof Python, arbitrary shell/SQL atau unmodeled tools. Cross-boundary workflow tidak otomatis membuktikan komposisi jaminan; review ini tidak mereplikasi proof/model/experiment.",
+      "Security_Property_Guaranteed": "Confidentiality rule dan denied-request fail-closed pada abstract typed mediation core",
+      "Evidence_Quote_and_Page": "PDF pp.2-3 VTRM/TLC/WEJ; pp.4-5 evaluation | Parafrasa sumber: VTRM memediasi typed tool requests dan model TLA+ memeriksa confidentiality serta fail-closed. || [R2]: PARAFRASA dan kutipan metrik terukur. PDF p. 1 Abstract & p. 2 Section 1 (AgentOS, VTRM modeled in TLA+, WEJ, 21/24 benign tasks completed, 48/48 harmful adversarial cases blocked); pp. 2–3 Section 3 & Figure 1 (VTRM & WEJ architecture, TLA+ scope note); p. 4 Section 5 & Table 1."
+    },
+    {
+      "Claim_ID": "CLM-0395",
+      "Claim_QA": "READY",
+      "Study_Title": "Agentic Witnessing: Pragmatic and Scalable TEE-Enabled Privacy-Preserving Auditing",
+      "Composition_Evidence": "Claim-specific assessment: Docker on Ryzen5000/32GB without SEV;TEE/attestation emulated;21 public codebases plus self-audit; four-verdict alphabet leakage bound conditional on interface/session budget. Trusted components: Attested auditor runtime assumed; remote Gemini3Pro provider receives corpus content under confidentiality agreements; truthful LLM judgment not guaranteed. Residual composition limits: DG;AD: genuine TEE not tested; signed prompt injection remains possible and recording is not prevention. Kmax40/four outcomes gives80bits/session only for verdict channel; timing/metadata and accumulated sessions excluded. Actual Table4 audit52questions exceeds illustrative40 budget. Remote inference exposes data to provider; Table6 identifies semantic errors and inconsistencies, not validated perfect auditing.",
+      "Security_Property_Guaranteed": "Agentic Witnessing binds an auditor transcript to a committed corpus while returning restricted semantic verdicts to a verifier.",
+      "Evidence_Quote_and_Page": "PDF pp.3-5 protocol/bound/evaluation; pp.8-9 Tables4-6"
+    },
+    {
+      "Claim_ID": "CLM-0401",
+      "Claim_QA": "READY",
+      "Study_Title": "SAGA: A Security Architecture for Governing AI Agentic Systems",
+      "Composition_Evidence": "Claim-specific assessment: ProVerif symbolic secrecy/authentication;Python HTTPS/mutualTLS;threeLLM tasks;RethinkDBRAFT/sharding;8 modeled attacks. Trusted components: Honest-but-curious provider/registries;trusted human registration and TLS/key custody;received valid token does not imply benign message. Residual composition limits: AD:valid-token malicious communication A8 explicitly admitted within quota/expiry;no semantic injection defense. ProVerif abstracts crypto/TLS/state correspondence;RAFT tolerates crash not Byzantine faults,PBFT proposal separate. Signature wording in implementation mixes Curve25519/X25519/SHA256;do not assume signature algorithm beyond reported text. MAGIQ E06 successor/comparator not independent repetition.",
+      "Security_Property_Guaranteed": "SAGA authenticates policy-authorized inter-agent contacts and bounds credential reuse by time and message quotas.",
+      "Evidence_Quote_and_Page": "PDF pp.5-10 threat/ProVerif/implementation; pp.12-13 TablesII; pp.18-19 model/attacks"
+    },
+    {
+      "Claim_ID": "CLM-0420",
+      "Claim_QA": "FLAGGED",
+      "Study_Title": "AITH: A Post-Quantum Continuous Delegation Protocol for Human-AI Trust Establishment",
+      "Composition_Evidence": "Claim-specific assessment: 100000operations1000simulatedusers;MLDSAsimulatedviaHMACSHA256. Paperreports5Tamarinlemmas butmodel/logs/fullproofs onlylistedasextendedsupplementsnotpresentin11pagePDF. Trusted components: Humanconstraintcompleteness,trustedboundaryengine/targets,revocationconnectivity/clocks andexclusiveexecutionpath;MLDSAsigningnotimplementedinbenchmark. Residual composition limits: AD;UG:0.21us boundarycheckexcludesrealMLDSA and64core301Mthroughputprojected;noPQCprimitiveperformancevalidation. Tamarinverification is sourceassertion pendingmodel/loginspection;codeverificationfuture. PushRTTrevocationnotofflineguarantee;HMACsymmetricemulationcannotestablishnonrepudiation. Hashchainwithouttrustedhead/completenessdoesnotdetectalltruncations.",
+      "Security_Property_Guaranteed": "AITH amortizes intended ML-DSA certificate issuance across deterministic per-operation scope checks in a continuous-delegation design.",
+      "Evidence_Quote_and_Page": "PDF pp.3-7 protocol/proofsketch/Tables3-6; pp.9,11 limitations/supplements"
+    },
+    {
+      "Claim_ID": "CLM-0422",
+      "Claim_QA": "FLAGGED",
+      "Study_Title": "AITH: A Post-Quantum Continuous Delegation Protocol for Human-AI Trust Establishment",
+      "Composition_Evidence": "Demonstrates how adversarial red-teaming and Tamarin verification compose to harden delegation (B2) and revocation/audit chains (B4).",
+      "Security_Property_Guaranteed": "Identifies and patches 12 vulnerabilities across 5 iterative rounds (including cumulative window bypass, TOCTOU revocation race, and trust score manipulation leading to the v3 ML-DSA pivot).",
+      "Evidence_Quote_and_Page": "Section 7 (Table 7, pp. 1–2, 7): \"This multi-model audit identified and resolved 12 vulnerabilities across four severity layers, driving the architectural pivot from dynamic trust scoring to deterministic boundary enforcement.\""
+    },
+    {
+      "Claim_ID": "CLM-0452",
+      "Claim_QA": "READY",
+      "Study_Title": "SentinelAgent: Intent-Verified Delegation Chains for Securing Federal Multi-Agent AI Systems",
+      "Composition_Evidence": "Claim-specific assessment: Source-reported TLA+ checks2744789 states for P1/P3-P7; bounded126 property evasions; DelegationBench516 scenarios150attack366benign; HTTP DAS and small live agent tests. Trusted components: Trusted DAS/policy hooks, complete API/output observation and symmetric-key custody; finite model corresponds to implementation; NLI and benign overrides are separate heuristic controls. Residual composition limits: DG;AD: P2 excluded from deterministic model. Attacks selected for properties P2/P6/P7; permitted endpoint misuse and schema-conforming harmful output remain. P2 alone13.3% TPR contrasts with full-suite result; adversarial paraphrase13%. NLI raw FPR12.3% is not system override-adjusted0%. TableVIII119attacks57benign conflicts with prose120/53. Real HTTP median1.86ms excludes full NLI path.2-of3 threshold signing is simulated; generic asymmetric/FIPS roadmap not implemented validation.",
+      "Security_Property_Guaranteed": "Finite-state checking and benchmark enforcement support scoped delegation constraints; probabilistic intent preservation remains outside deterministic proof.",
+      "Evidence_Quote_and_Page": "PDF pp.4-8 model/properties/evaluation; pp.9-10 TableVIII/DAS"
+    },
+    {
+      "Claim_ID": "CLM-0495",
+      "Claim_QA": "READY",
+      "Study_Title": "A2ABreak: Systematic Security Analysis of the A2A Protocol",
+      "Composition_Evidence": "Claim-specific assessment: 929statements→37states76transitions;17candidates/11nonduplicatevalidated;PSMBench14protocols;Alloycontext/skill andTLCmulti-hop models for3findings;remaining8notmachinechecked. Trusted components: Correctpinnednormative-spec/FSM abstraction andauthorreview;allparticipants complywithspec/enabledoptionals;transport/implementation assumedcorrect. Residual composition limits: DG;AD:spec-modelcounterexamples notliveSDKexploits orcryptoattacks. Author-internalcandidatevalidationcannotmeasureglobalrecall;F1.846relativecandidatepool. LLMsemanticrenamingappliedonlyownoutput requiresstring-matchedbaselinecomparisonseparate. OnepassAPIcost40.97 notfivepassmanualtime. ExecutablelargeA2Atestbed/remainingmitigationverificationfuture. Skillattestationprovesissuerclaim,notruntimebehavior.",
+      "Security_Property_Guaranteed": "Protocol-compliant participant models expose missing context ownership,delegation provenance andskill-attestation invariants, withthree modeledmitigations checked.",
+      "Evidence_Quote_and_Page": "PDF pp.4-8 scope/pipeline/evaluation; pp.9-11 findings/formalverification | [R2 Verbatim]: Abstract & Sec. 4–6 (pp. 1, 5–10, 13, Tables 1–3): 'we use ProVerif [28] for cryptographic properties such as AgentCard ownership and skill attestation, and TLA+/TLC [29] for multi-hop delegation provenance... A2ABREAK achieves 73.3% precision (11 TP out of 15 non-duplicate candidates) and 84.6% F1 against manual expert review, while a zero-shot LLM baseline operating over the same specification produces zero confirmed findings.'"
+    },
+    {
+      "Claim_ID": "CLM-0498",
+      "Claim_QA": "READY",
+      "Study_Title": "enclawed: A Configurable, Sector-Neutral Hardening Framework for Single-User AI Assistant Gateways",
+      "Composition_Evidence": "Claim-specific assessment: Node22;261unit+95pen tests~1s;static/refinement/boundedDFS K8 claimedinbundleloader;formaltheoremscompanionnotreproduced;noaccreditedproductiondeployment. Trusted components: TrustedJSbootstrap/runtime,key/clearancebinding andOSnetworkcontrols suppliedbydeployment;allnet/effectentrypoints mediated;cooperativecheckpoints/inverses. Residual composition limits: AD:identitylayernotshipped,OSMAC/HSM/validatedcrypto/auditWORM/fullat-restcoverageoperatorowned. On-diskhashchaincannotdetecttailtruncation;JavaScriptstringscannotzeroize. Humanpause/stopcooperativebetweenactions;rollbackboundedFIFO,inversecanfail andevictioncommits. RegexDLPnotparaphrase/OCR. K8abstractsearchnotunboundedprograms;cachedsource/effectsneedfaithfulparser/completeentrypoints. Cloudextensionsgatedunsigned,notallsourcephysicallyremoved;legacyreferencesrequireintegrationtests.",
+      "Security_Property_Guaranteed": "A configurable hardened assistant gateway implements scoped label/egress/module gates andsupplies source-described boundedskill-evidence rechecking.",
+      "Evidence_Quote_and_Page": "PDF pp.7-15 threat/admission/proofs/HITL; pp.17-19 evaluation/gaps | [R2 Verbatim]: Sec. 2–5 (pp. 5, 8, 10, 13, 15, 17, 23, Tables 3–8, Theorem 2.8.1): 'An Ed25519 module-signing system with a per-signer clearance-approval trust root and boot-time pre-verification... The CLI scripts/skills-formal-verify.mjs composes the three methods, hashes each evidence file with a sorted-key canonical encoding, and signs a four-file bundle (static.json, types.proof.json, smt.unsat.json, manifest.attest.json) with the same Ed25519 module-signing primitive... All 261 unit tests pass on Node 22... All 95 pen-tests pass on Node 22.'"
+    },
+    {
+      "Claim_ID": "CLM-0542",
+      "Claim_QA": "READY",
+      "Study_Title": "Proof-Carrying Certificates for LLM Pipelines: A Trust-Boundary Architecture",
+      "Composition_Evidence": "Claim-specific assessment: Lean4.30rc2/Mathlibpinned;22certtypes46auditeddeclarations17axiomfree;pilotsA/B/Bprime/C;UniversalCard specifieduncompiled;C48trajectories. Trusted components: FaithfulMLextraction/predicatecoverage,sourcepinning,LeanTCB anddeclaredoracles. Residual composition limits: AD: Computationalverificationnotworldtruth. Tier2mathplaceholders/tier3crypto/tier4MLoraclesnotallkernel-derived. Cdirectsplicingnotpromptinjection,endpoints12/18blockvs12/13scoped;HC1FAILretained. Fivewithinbudgetprobesproperlypermitted;recentmtime moveomittedpredicatecannotbeprotected. PilotBnegativeoperatingpointconclusionsnotuniversallyrobust. Card1.5KB/1sauditprojected;22certificateaudit~1smeasured,notdeployedfullCard.",
+      "Security_Property_Guaranteed": "A compiled certificate library verifies deterministic structured computations conditional on declared ML inputs and predicates.",
+      "Evidence_Quote_and_Page": "PDF pp.7-14 scope/axioms; pp.31-35 PilotC; pp.53-58 artifact/threat | [R2 Verbatim]: Abstract & Sec. 1–13 (pp. 1–4): 'The framework verifies the deterministic structured computations surrounding a large language model rather than the model itself... certificate validity defined as kernel type-check plus a sorry-free #print axioms audit against the trust boundary... Hoare-style agent action (§8): per-step preconditions and postconditions discharged by the Lean kernel, chained into a trajectory certificate that carries no axioms at all in the compiled artifact.'"
+    },
+    {
+      "Claim_ID": "CLM-0547",
+      "Claim_QA": "READY",
+      "Study_Title": "Options, Not Clicks: Lattice Refinement for Consent-Driven MCP Authorization",
+      "Composition_Evidence": "Claim-specific assessment: ConsentBench984traces3538steps;50real sessions6developers2companies;16personstudy;formalabstraction. Trusted components: Trustedmiddleware/OS,nonmaliciousbutbuggyservers;accuratepredicateextraction. Residual composition limits: AD: DeterministicdecisionsonlyafterfallibleLLMextraction;guaranteerelativetoabstraction,notintenttruth.8.2mspolicyomits4.69sextraction,cachecostfuture.Table1 has nested BoundEscalation dimension breakdowns;do not sum aggregate and subordinate rows as distinct traces.100%boundescalationrecall differs99.4overall andinvariant95/97.9. AutoModecomparisonhasdifferentgoal,notgeneralclientranking. Temporal/domainpredicatesunsupported.",
+      "Security_Property_Guaranteed": "Deterministic lattice enforcement detects contextual consent-boundary crossings conditional on correctly extracted action predicates.",
+      "Evidence_Quote_and_Page": "PDF pp.3-8 model/design; pp.10-12 results/limits | [R2 Verbatim]: Abstract & Sec. 1–4 (pp. 1–3, 7): 'On ConsentBench, a trace-based benchmark of 984 traces from 13 real-world MCP servers... ConLeash auto-permits 98.3% of benign invocations while catching 99.4% of escalations, achieving 98.2% step accuracy (F1 = 98.7%) with only 8.2 ms reasoning overhead per step... encoding both the structure and the policy constraints into Datalog, a decidable logic-programming language with guaranteed termination.'"
+    },
+    {
+      "Claim_ID": "CLM-0551",
+      "Claim_QA": "READY",
+      "Study_Title": "Signing the Transaction but Not the Decision: Whisper Attacks and a Binding Defense for AP2",
+      "Composition_Evidence": "Claim-specific assessment: AP2v0.2.0pinned;1440core+104factualscenarios;TLCboundedDDFC invariants;multimodel/API/CLIseparatetests. Trusted components: Trusteddisplaycapture/sessionmapping/PSP,atomicnonceconsume andhonesttokenredeemeridentity. Residual composition limits: DG;AD: Signaturevaliditynotsemanticchoicecorrectness. Displaybindingtrustshonestshoppingagent/snapshot andspecifiedbudget;nojudgmentoffairpriceortrueavailability. Selectioncanmatchbaselineprice/approvedbudgetandremainunsurfaced. FourTLCinvariantsnotfullrefund/retryimplementationproof;zeroFPonlytestset. Contentclassifier12%strictFP;consumerTable6pastedrefused0/8conflictsproseall8refusals. Modelcomparisondenominators/differentversionsnotranking.",
+      "Security_Property_Guaranteed": "Structural bindings block tested credential/cart forgeries while SelectionWhisper remainssemanticallyvalid andis surfacedbyspendconfirmation.",
+      "Evidence_Quote_and_Page": "PDF pp.4-8 threat/defense; pp.10-13 Tables3-6/limits; appendixD | [R2 Verbatim]: Abstract & Sec. 3–6 (pp. 1–2, 6–8, Theorem 1, Tables 1–2): 'By default, the three attacks succeeded at rates of 90%, 56%, and 73.3%, respectively... Appendix D formalizes these invariants and checks them with the TLC model checker... Theorem 1. Under I1-I4, no Vault Whisper landing on A's LLM context can cause a third-party payment_method_alias to leave the vault...'"
+    },
+    {
+      "Claim_ID": "CLM-0565",
+      "Claim_QA": "READY",
+      "Study_Title": "The Proxy Knows Too Much: Sealing LLM API Routers with Attested TEEs",
+      "Composition_Evidence": "Claim-specific assessment: NitroNitriding851trustedlines;ProVeriforderingchecks,cryptographicreductionsandfalsification;realprovidersecurityimagevslocalmicrobenchmarkdifferentimage. Trusted components: TrustedNitroattestationroot,correctsourceaudit/reproduciblebuild,securechannels andfaithfulrelay. Residual composition limits: AD: Hostretainsavailability/account/policyselectionandleaksstreamtiming/sizes;no continuousreattestationpersession. Trustmeasuredcode/toolchain/provider/HW;attestationnotprovehonestprogramorsemanticintent. Formalnoninterferenceoffullprogramfuture;conformance/fuzzsupportbutdonotprovebytefaithfulness.5.7msfromdistinctlocalimagepooledconnectionsnotsecurityimageWANtotal.8/10or10/10codingagentseededbugsnotcompletehumanaudit.",
+      "Security_Property_Guaranteed": "An attestedrouter confinesplaintext relaytoauditedenclavecode andpreventstestedhostbodyrewrites undernamedfaithfulnessassumptions.",
+      "Evidence_Quote_and_Page": "PDF pp.3-9 threat/protocol/theorems/evaluation; pp.13-16 proofs | [R2 Verbatim]: Abstract & Sec. IV–VI (pp. 1–2, 7–9, Theorems 1–2, Lemmas 1–2, Fig. 4a): 'All four attack classes succeed on a plaintext-access baseline and are blocked by our design; adaptive malicious-router tests and a scoped model in the ProVerif protocol verifier [5] bound the host's remaining influence... Theorem 1 (Confidentiality)... Theorem 2 (Faithful relay and integrity)... For a small request body the added latency has a median of 5.7 ms and a 95th percentile of 6.3 ms (Figure 4a).'"
+    }
+  ],
+  "record_ids": {
+    "four_boundary": [
+      "CLM-0001",
+      "CLM-0013",
+      "CLM-0014",
+      "CLM-0015",
+      "CLM-0032",
+      "CLM-0033",
+      "CLM-0035",
+      "CLM-0038",
+      "CLM-0040",
+      "CLM-0041",
+      "CLM-0043",
+      "CLM-0045",
+      "CLM-0151",
+      "CLM-0156",
+      "CLM-0176",
+      "CLM-0200",
+      "CLM-0218",
+      "CLM-0219",
+      "CLM-0229",
+      "CLM-0233",
+      "CLM-0234",
+      "CLM-0238",
+      "CLM-0255",
+      "CLM-0279",
+      "CLM-0301",
+      "CLM-0302",
+      "CLM-0306",
+      "CLM-0332",
+      "CLM-0333",
+      "CLM-0338",
+      "CLM-0342",
+      "CLM-0362",
+      "CLM-0367",
+      "CLM-0373",
+      "CLM-0413",
+      "CLM-0420",
+      "CLM-0430",
+      "CLM-0439",
+      "CLM-0452",
+      "CLM-0457",
+      "CLM-0462",
+      "CLM-0464",
+      "CLM-0468",
+      "CLM-0471",
+      "CLM-0475",
+      "CLM-0489",
+      "CLM-0494",
+      "CLM-0498",
+      "CLM-0499",
+      "CLM-0501",
+      "CLM-0506",
+      "CLM-0508",
+      "CLM-0509",
+      "CLM-0515",
+      "CLM-0518",
+      "CLM-0520",
+      "CLM-0521",
+      "CLM-0522",
+      "CLM-0523",
+      "CLM-0525",
+      "CLM-0528",
+      "CLM-0531",
+      "CLM-0532",
+      "CLM-0537",
+      "CLM-0539",
+      "CLM-0541",
+      "CLM-0542",
+      "CLM-0545",
+      "CLM-0551",
+      "CLM-0553",
+      "CLM-0554",
+      "CLM-0556",
+      "CLM-0559",
+      "CLM-0560",
+      "CLM-0563",
+      "CLM-0567",
+      "CLM-0570",
+      "CLM-0572",
+      "CLM-0573",
+      "CLM-0579"
+    ],
+    "focused_formal": [
+      "CLM-0001",
+      "CLM-0010",
+      "CLM-0028",
+      "CLM-0052",
+      "CLM-0060",
+      "CLM-0061",
+      "CLM-0079",
+      "CLM-0095",
+      "CLM-0109",
+      "CLM-0197",
+      "CLM-0280",
+      "CLM-0320",
+      "CLM-0372",
+      "CLM-0383",
+      "CLM-0395",
+      "CLM-0401",
+      "CLM-0420",
+      "CLM-0422",
+      "CLM-0430",
+      "CLM-0436",
+      "CLM-0452",
+      "CLM-0456",
+      "CLM-0495",
+      "CLM-0498",
+      "CLM-0535",
+      "CLM-0542",
+      "CLM-0547",
+      "CLM-0551",
+      "CLM-0565"
+    ],
+    "pqc_stage45": [
+      {
+        "Claim_ID": "CLM-0021",
+        "Source_Record_ID": "SLR-M-0244",
+        "QA": "FLAGGED",
+        "direct_active_link": true,
+        "report_active_link": true
+      },
+      {
+        "Claim_ID": "CLM-0207",
+        "Source_Record_ID": "SLR-M-0127",
+        "QA": "FLAGGED",
+        "direct_active_link": true,
+        "report_active_link": true
+      },
+      {
+        "Claim_ID": "CLM-0335",
+        "Source_Record_ID": "ARXIV-S-0057",
+        "QA": "READY",
+        "direct_active_link": true,
+        "report_active_link": true
+      },
+      {
+        "Claim_ID": "CLM-0336",
+        "Source_Record_ID": "ARXIV-S-0057",
+        "QA": "READY",
+        "direct_active_link": false,
+        "report_active_link": true
+      },
+      {
+        "Claim_ID": "CLM-0392",
+        "Source_Record_ID": "ARXIV-S-0140",
+        "QA": "READY",
+        "direct_active_link": true,
+        "report_active_link": true
+      },
+      {
+        "Claim_ID": "CLM-0393",
+        "Source_Record_ID": "ARXIV-S-0140",
+        "QA": "FLAGGED",
+        "direct_active_link": false,
+        "report_active_link": true
+      },
+      {
+        "Claim_ID": "CLM-0394",
+        "Source_Record_ID": "ARXIV-S-0140",
+        "QA": "READY",
+        "direct_active_link": false,
+        "report_active_link": true
+      }
+    ]
+  }
+}

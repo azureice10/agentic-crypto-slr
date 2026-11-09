@@ -1,0 +1,40 @@
+Tier,Indicator,Unit,Numerator,Denominator,Percent
+Tier 1,MULTI_BOUNDARY,claims,216,271,79.70479704797047
+Tier 1,SUPPORTED_WITHIN_SCOPE,claims,222,271,81.91881918819189
+Tier 1,READY,claims,243,271,89.66789667896678
+Tier 1,Strict_Formal,claims,7,271,2.5830258302583027
+Tier 1,AD,claims,209,271,77.12177121771218
+Tier 1,Benchmark_PoC_Deployment,claims,209,271,77.12177121771218
+Tier 1,No_Demonstrated_PQC_Migration,claims,259,271,95.5719557195572
+Tier 1,B1,claims,41,271,15.129151291512915
+Tier 1,B2,claims,220,271,81.18081180811808
+Tier 1,B3,claims,231,271,85.23985239852398
+Tier 1,B4,claims,89,271,32.84132841328413
+Tier 1,Reports_with_RQ4_Inventory,reports,117,212,55.18867924528302
+Tier 1,Reports_with_Active_Crypto_Dependency,reports,116,212,54.716981132075475
+Tier 2,MULTI_BOUNDARY,claims,256,313,81.78913738019169
+Tier 2,SUPPORTED_WITHIN_SCOPE,claims,260,313,83.06709265175719
+Tier 2,READY,claims,287,313,91.69329073482429
+Tier 2,Strict_Formal,claims,22,313,7.0287539936102235
+Tier 2,AD,claims,306,313,97.76357827476039
+Tier 2,Benchmark_PoC_Deployment,claims,285,313,91.05431309904152
+Tier 2,No_Demonstrated_PQC_Migration,claims,301,313,96.1661341853035
+Tier 2,B1,claims,131,313,41.853035143769965
+Tier 2,B2,claims,252,313,80.5111821086262
+Tier 2,B3,claims,260,313,83.06709265175719
+Tier 2,B4,claims,158,313,50.47923322683706
+Tier 2,Reports_with_RQ4_Inventory,reports,128,230,55.65217391304348
+Tier 2,Reports_with_Active_Crypto_Dependency,reports,112,230,48.69565217391305
+Combined,MULTI_BOUNDARY,claims,472,584,80.82191780821918
+Combined,SUPPORTED_WITHIN_SCOPE,claims,482,584,82.53424657534246
+Combined,READY,claims,530,584,90.75342465753424
+Combined,Strict_Formal,claims,29,584,4.965753424657534
+Combined,AD,claims,515,584,88.18493150684932
+Combined,Benchmark_PoC_Deployment,claims,494,584,84.58904109589042
+Combined,No_Demonstrated_PQC_Migration,claims,560,584,95.8904109589041
+Combined,B1,claims,172,584,29.45205479452055
+Combined,B2,claims,472,584,80.82191780821918
+Combined,B3,claims,491,584,84.07534246575342
+Combined,B4,claims,247,584,42.29452054794521
+Combined,Reports_with_RQ4_Inventory,reports,245,442,55.42986425339367
+Combined,Reports_with_Active_Crypto_Dependency,reports,228,442,51.58371040723982

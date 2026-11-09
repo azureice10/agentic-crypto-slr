@@ -1,0 +1,56 @@
+RQ,Group,Stratum,All_Count,READY_Count,All_Pct_or_p50_ms,READY_Pct_or_p50_ms,Report_Clustered_READY_p50_ms,Notes
+RQ1,Boundary_Scope,Multi_Boundary_Claims,472,425,80.8,80.2,,472/584 (80.8%) all claims; 425/530 (80.2%) READY claims
+RQ1,Boundary_Scope,Single_Boundary_Claims,112,105,19.2,19.8,,"B1=1, B2=25, B3=55, B4=31"
+RQ1,Boundary_Incidence,B1,172,154,29.5,29.1,,Non-exclusive boundary involvement (158/442 All reports; 142/406 READY reports)
+RQ1,Boundary_Incidence,B2,472,426,80.8,80.4,,Non-exclusive boundary involvement (398/442 All reports; 360/406 READY reports)
+RQ1,Boundary_Incidence,B3,491,446,84.1,84.2,,Non-exclusive boundary involvement (395/442 All reports; 361/406 READY reports)
+RQ1,Boundary_Incidence,B4,247,216,42.3,40.8,,Non-exclusive boundary involvement (224/442 All reports; 197/406 READY reports)
+RQ2,Formal_Verification,Machine_Checked_or_Crypto_Reduction_or_Axiomatic_Total,29,27,5.0,5.1,,TOOL_SUPPORTED_VERIFICATION (15/13 READY) + SECURITY_REDUCTION (11/11 READY) + LOGICAL_AXIOMS_WITH_PROOF (3/3 READY)
+RQ2,Formal_Evidence_Type_Breakdown,INFORMAL_ARGUMENT,201,173,34.4,32.6,,Exact Formal_Evidence_Type category count in data/claims.csv
+RQ2,Formal_Evidence_Type_Breakdown,NONE,193,185,33.0,34.9,,Exact Formal_Evidence_Type category count in data/claims.csv
+RQ2,Formal_Evidence_Type_Breakdown,FORMAL_MODEL,107,92,18.3,17.4,,Exact Formal_Evidence_Type category count in data/claims.csv
+RQ2,Formal_Evidence_Type_Breakdown,THEORETIC_PROOF,54,53,9.2,10.0,,Exact Formal_Evidence_Type category count in data/claims.csv
+RQ2,Formal_Evidence_Type_Breakdown,TOOL_SUPPORTED_VERIFICATION,15,13,2.6,2.5,,Exact Formal_Evidence_Type category count in data/claims.csv
+RQ2,Formal_Evidence_Type_Breakdown,SECURITY_REDUCTION,11,11,1.9,2.1,,Exact Formal_Evidence_Type category count in data/claims.csv
+RQ2,Formal_Evidence_Type_Breakdown,LOGICAL_AXIOMS_WITH_PROOF,3,3,0.5,0.6,,Exact Formal_Evidence_Type category count in data/claims.csv
+RQ2,Limitation_Codes,AD,515,463,88.2,87.4,,Methodological limitation incidence
+RQ2,Limitation_Codes,DG,240,226,41.1,42.6,,Methodological limitation incidence
+RQ2,Limitation_Codes,UG,222,169,38.0,31.9,,Methodological limitation incidence
+RQ3,Pooling_Eligibility_v35,ELIGIBLE_PRIMARY_STRATIFIED_SYNTHESIS,399,362,87.9,87.4,,Crosswalk disposition (399/454 All; 362/414 READY)
+RQ3,Pooling_Eligibility_v35,EXCLUDED_HUMAN_BASELINE,2,2,0.4,0.5,,Crosswalk disposition (2/454 All; 2/414 READY)
+RQ3,Pooling_Eligibility_v35,EXCLUDED_SIBLING_DUPLICATE,26,23,5.7,5.6,,Crosswalk disposition (26/454 All; 23/414 READY)
+RQ3,Pooling_Eligibility_v35,EXCLUDED_SYNTHETIC_ZERO_OR_NON_TIME,2,2,0.4,0.5,,Crosswalk disposition (2/454 All; 2/414 READY)
+RQ3,Pooling_Eligibility_v35,EXCLUDED_WARM_PATH_BYPASS_INDICATOR,3,3,0.7,0.7,,Crosswalk disposition (3/454 All; 3/414 READY)
+RQ3,Pooling_Eligibility_v35,QUARANTINED_SOURCE_TABLE_CONFLICT,3,3,0.7,0.7,,Crosswalk disposition (3/454 All; 3/414 READY)
+RQ3,Pooling_Eligibility_v35,STRATIFIED_ADVERSARIAL_OR_DETECTION_TIME,5,5,1.1,1.2,,Crosswalk disposition (5/454 All; 5/414 READY)
+RQ3,Pooling_Eligibility_v35,STRATIFIED_BATCH_OR_EPISODE_WORKLOAD,4,4,0.9,1.0,,Crosswalk disposition (4/454 All; 4/414 READY)
+RQ3,Pooling_Eligibility_v35,STRATIFIED_BOUND_OR_MODELED_CURVE,2,2,0.4,0.5,,Crosswalk disposition (2/454 All; 2/414 READY)
+RQ3,Pooling_Eligibility_v35,STRATIFIED_OFFLINE_SCAN_BATCH,8,8,1.8,1.9,,Crosswalk disposition (8/454 All; 8/414 READY)
+RQ3,Mechanism_Family_Latency,1. Classical Crypto / Token Gate,119,110,4.6,4.6,7.3,55 canonical READY reports
+RQ3,Mechanism_Family_Latency,2. PQC / Quantum Primitives,13,3,3.2,0.082,10.2055,2 canonical READY reports
+RQ3,Mechanism_Family_Latency,3. Deterministic Policy / Kernel,22,18,12.35,50.5,300.95,14 canonical READY reports
+RQ3,Mechanism_Family_Latency,4. End-to-End Agent Workflows,141,130,250.0,354.0,172.5,62 canonical READY reports
+RQ3,Mechanism_Family_Latency,5. Blockchain / Consensus Ledger,35,32,944.0,872.0,600.0,11 canonical READY reports
+RQ3,Mechanism_Family_Latency,6. Hardware TEE / ORAM Enclave,31,31,1800.0,1800.0,297.942,6 canonical READY reports
+RQ3,Mechanism_Family_Latency,7. LLM-Judge / Quorum / FHE,38,38,1110.4,1110.4,3700.0,17 canonical READY reports
+RQ3,Estimand_Level_Latency,L1: Primitive / Crypto Micro-Op,90,78,1.7995,1.7645,4.3,33 canonical READY reports
+RQ3,Estimand_Level_Latency,L2: Per-Request Policy / Gate Check,61,51,12.4,10.8,11.15,32 canonical READY reports
+RQ3,Estimand_Level_Latency,L3: Session / Enclave / Consensus / Proof Setup,42,40,262.88,262.88,100.0,17 canonical READY reports
+RQ3,Estimand_Level_Latency,L4: End-to-End Agent Workflow Runtime,206,193,1125.0,1700.0,432.655,96 canonical READY reports
+RQ4,Population_Partition,Active_Crypto_Attestation_Dependencies_Total,266,224,94.0,92.9,,266 active records (231 claims / 228 reports; 224 READY across 197 READY claims / 195 READY reports) = 222 concrete (188 READY) + 44 Suite=NR (36 READY)
+RQ4,Population_Partition,Active_Concrete_Algorithm_Protocol_Enclave_Subset,222,188,78.4,78.0,,"222 concrete records (189 claims / 186 reports; 188 READY across 162 READY claims / 160 READY reports), excluding 44 Suite=NR"
+RQ4,Population_Partition,Excluded_Non_Crypto_Baselines_and_Rejected_Labels,17,17,6.0,7.1,,17 excluded non-crypto records (17 READY claims / 17 READY reports) = 8 EXCLUDED_OWN_NON_CRYPTO + 7 REJECT_CLASS + 2 explicit baselines
+RQ4,Quantum_Exposure_Tier,Evaluated or Proposed PQC / Quantum Constructions,16,8,5.7,3.3,,11 unique claims (6 READY) / 11 canonical reports (6 READY)
+RQ4,Quantum_Exposure_Tier,Grover / Symmetric / Lattice FHE / STARK,73,63,25.8,26.1,,67 unique claims (58 READY) / 67 canonical reports (58 READY)
+RQ4,Quantum_Exposure_Tier,Non-Cryptographic Baselines & Excluded Own Non-Crypto,17,17,6.0,7.1,,17 unique claims (17 READY) / 17 canonical reports (17 READY)
+RQ4,Quantum_Exposure_Tier,Tier A: Direct Mathematical Shor Exposure,82,77,29.0,32.0,,76 unique claims (72 READY) / 75 canonical reports (71 READY)
+RQ4,Quantum_Exposure_Tier,Tier B: Conditional Protocol / Token Wrappers,33,25,11.7,10.4,,33 unique claims (25 READY) / 33 canonical reports (25 READY)
+RQ4,Quantum_Exposure_Tier,Tier C: Conditional Hardware Enclave Roots,18,15,6.4,6.2,,18 unique claims (15 READY) / 17 canonical reports (14 READY)
+RQ4,Quantum_Exposure_Tier,Unspecified Algorithm / Generic Scheme (Suite NR),44,36,15.5,14.9,,44 unique claims (36 READY) / 44 canonical reports (36 READY)
+RQ4,Claim_Level_PQC_Stage,NOT_DISCUSSED,408,375,69.86,70.75,,Claim-level PQC migration readiness
+RQ4,Claim_Level_PQC_Stage,STAGE_0_PRE_QUANTUM_ONLY,152,142,26.03,26.79,,Claim-level PQC migration readiness
+RQ4,Claim_Level_PQC_Stage,STAGE_1_SUGGESTED_MIGRATION,11,9,1.88,1.7,,Claim-level PQC migration readiness
+RQ4,Claim_Level_PQC_Stage,STAGE_2_ANALYTICAL_PROPOSAL,2,0,0.34,0.0,,Claim-level PQC migration readiness
+RQ4,Claim_Level_PQC_Stage,STAGE_3_SIMULATION_OR_EMULATION,4,0,0.68,0.0,,Claim-level PQC migration readiness
+RQ4,Claim_Level_PQC_Stage,STAGE_4_PRIMITIVE_IMPLEMENTED,2,0,0.34,0.0,,Claim-level PQC migration readiness
+RQ4,Claim_Level_PQC_Stage,STAGE_5_AGENT_WORKLOAD_BENCHMARK,5,4,0.86,0.75,,Claim-level PQC migration readiness

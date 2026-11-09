@@ -1,0 +1,189 @@
+Table_Name,Column_Name,Data_Type,Description
+claims.csv,Claim_ID,string,Unique claim identifier; primary key in claims.csv and foreign key elsewhere.
+claims.csv,Source_Record_ID,string,Canonical included-report identifier; foreign key to studies.csv.
+claims.csv,Study_Title,string,Title of the parent canonical report.
+claims.csv,Claim_Category,string,"Recorded functional role of claim: defense, formal framework, prototype, benchmark, attack finding, or vulnerability surface."
+claims.csv,Target_Boundary,string,Single-boundary classification or MULTI_BOUNDARY; must agree with Boundary_Codes cardinality.
+claims.csv,Lifecycle_Stage,string,Single primary operational lifecycle stage assigned to a claim.
+claims.csv,Threat_Attacker_Model,string,Extracted adversary capabilities and threat-model scope.
+claims.csv,Cryptographic_Primitive_or_Mechanism,string,Full claim-level construction/mechanism description.
+claims.csv,Enforcement_Point_Location,string,Component or runtime location that enforces the assessed guarantee.
+claims.csv,Security_Property_Guaranteed,string,Security property asserted within the stated assumptions and assessed scope.
+claims.csv,Trust_Assumptions,string,Extracted trusted components and system/adversary assumptions.
+claims.csv,Formal_Evidence_Type,string,"Recorded formal-evidence category. Strict subset: TOOL_SUPPORTED_VERIFICATION, SECURITY_REDUCTION, LOGICAL_AXIOMS_WITH_PROOF."
+claims.csv,Implementation_Maturity,string,"Recorded implementation/evaluation category, distinct from formal evidence and release QA."
+claims.csv,Performance_Overhead_Reported,string,Free-text extracted performance description; numeric synthesis uses linked metric rows and final adjudication values.
+claims.csv,Exposed_Security_Function,string,Claim-level security function relevant to quantum exposure.
+claims.csv,Artifact_Protection_Lifetime,string,Claim-level source-reported artifact lifetime.
+claims.csv,PQC_Migration_Stage,string,Original migration evidence label. Analyze NOT_DISCUSSED and STAGE_0 jointly because batch coding differed; do not infer quantum safety from either label.
+claims.csv,Limitation_Codes_DG_AD_UG_NG,string,"Non-exclusive DG demonstrated gap, AD assumption dependence, UG unsupported generalization. NG is exclusive; absence of NG does not establish universal insecurity."
+claims.csv,Claim_Support_Status,string,"Support for the assessed claim scope: SUPPORTED_WITHIN_SCOPE, PARTIALLY_SUPPORTED, or NOT_SUPPORTED; independent of release status."
+claims.csv,Residual_Gap_and_Limitations,string,"Recorded limitation explanation, not necessarily an exploited vulnerability."
+claims.csv,Primary_RQ_Addressed,string,Research question(s) addressed by the extracted claim.
+claims.csv,Evidence_Quote_and_Page,string,Recorded quotation/locator anchor; primary PDFs are not distributed.
+claims.csv,Study_Family_ID,string,"Canonical report cluster, SF-<Source_Record_ID>; not independent validation of a study family."
+claims.csv,Mechanism_ID,string,Mechanism/attack identifier; not a study-family identifier.
+claims.csv,Claim_Text_As_Reported,string,Extracted source claim wording; assess together with its locator and scope.
+claims.csv,Assessed_Claim_Scope,string,Review-fenced scope to which support is assigned.
+claims.csv,Protected_Object,string,Object or representation for which the assessed property is claimed.
+claims.csv,Boundary_Codes,string,"Semicolon-delimited set B1 intent-to-delegation, B2 delegation-to-request, B3 request-to-execution, B4 execution-to-audit."
+claims.csv,Composition_Evidence,string,Evidence and limits of composing mechanisms or boundaries.
+claims.csv,Source_Version_ID,string,Recorded source filename or pinned bibliographic/preprint version.
+claims.csv,Source_PDF_SHA256,string,Recorded SHA-256 identity of the assessed primary PDF; the PDF is not distributed or rehashed by these scripts.
+claims.csv,Extraction_Date,string,Recorded extraction date.
+claims.csv,Verification_Status,string,Recorded verification workflow state; does not authenticate independent human review.
+claims.csv,Coding_Rationale,string,Reviewer explanation of coding choices.
+claims.csv,Required_Additional_Evidence,string,Evidence needed to resolve or extend the assessed claim.
+claims.csv,Claim_QA,string,"Claim-level release stratum READY or FLAGGED; inherited by linked observations, not a metric-level eligibility decision."
+claims.csv,QA_Adjudication_Disposition,string,Recorded claim release/retention disposition. Red-zone subgroups are not separately encoded in this field.
+claims.csv,Adjudication_ID_v35,string,Semicolon-delimited adjudication decision IDs; one row may receive multiple decisions. Blank means no v3.5 decision ID recorded.
+claims.csv,Human_Sign_Off_v35,string,"Recorded 2 November 2026 sign-off and review/decision references; preserved provenance, not a new editorial approval."
+rq3_latency_crosswalk.csv,Metric_ID,string,Unique metric-row identifier; crosswalk foreign key to rq3_metrics.csv.
+rq3_latency_crosswalk.csv,Claim_ID,string,Unique claim identifier; primary key in claims.csv and foreign key elsewhere.
+rq3_latency_crosswalk.csv,Source_Record_ID,string,Canonical included-report identifier; foreign key to studies.csv.
+rq3_latency_crosswalk.csv,Study_Family_ID,string,"Canonical report cluster, SF-<Source_Record_ID>; not independent validation of a study family."
+rq3_latency_crosswalk.csv,Evidence_Tier,string,Recorded peer-reviewed or arXiv-preprint tier.
+rq3_latency_crosswalk.csv,Claim_QA,string,"Claim-level release stratum READY or FLAGGED; inherited by linked observations, not a metric-level eligibility decision."
+rq3_latency_crosswalk.csv,Claim_Support_Status,string,"Support for the assessed claim scope: SUPPORTED_WITHIN_SCOPE, PARTIALLY_SUPPORTED, or NOT_SUPPORTED; independent of release status."
+rq3_latency_crosswalk.csv,Implementation_Maturity,string,"Recorded implementation/evaluation category, distinct from formal evidence and release QA."
+rq3_latency_crosswalk.csv,Data_Status,string,Observation reporting/resolution state; NOT_REPORTED identifies nonnumeric omission rows regardless of Unit.
+rq3_latency_crosswalk.csv,Verification_Status,string,Recorded verification workflow state; does not authenticate independent human review.
+rq3_latency_crosswalk.csv,Metric_Name,string,Name of the metric/configuration/statistic as extracted.
+rq3_latency_crosswalk.csv,Target_Configuration,string,System/algorithm/configuration measured by the observation.
+rq3_latency_crosswalk.csv,Workload,string,"Recorded unit of work or benchmark context; free text, not a normalized batch-size enum."
+rq3_latency_crosswalk.csv,Hardware_Runtime,string,Hardware/software/runtime context as reported; NR records absent reporting.
+rq3_latency_crosswalk.csv,Original_Measurement_Level,string,Archived extraction-level measurement scope before final reclassification.
+rq3_latency_crosswalk.csv,Original_Raw_Numeric_Value,number,Original extracted numeric value retained for audit; not preferred for final latency analysis.
+rq3_latency_crosswalk.csv,Original_Raw_Unit,string,Original extracted unit before corrections.
+rq3_latency_crosswalk.csv,Original_Normalized_Latency_ms,number,Archived original unit conversion to ms.
+rq3_latency_crosswalk.csv,Regex_Transcription_Bug_Flag,number,Flag for detected shorthand/percentile transcription corruption.
+rq3_latency_crosswalk.csv,Regex_Bug_Type,string,Recorded transcription-error category.
+rq3_latency_crosswalk.csv,Corrected_Raw_Numeric_Value,number,Intermediate corrected value; final analysis uses adjudicated fields.
+rq3_latency_crosswalk.csv,Corrected_Raw_Unit,string,Unit of intermediate correction.
+rq3_latency_crosswalk.csv,Corrected_Normalized_Latency_ms,number,Intermediate corrected milliseconds; final analysis uses adjudicated milliseconds.
+rq3_latency_crosswalk.csv,Correction_Rationale_and_Quote,string,Recorded intermediate correction rationale and source anchor.
+rq3_latency_crosswalk.csv,Is_Sibling_Claim_Duplicate,string,Recorded sibling duplication indicator; final pooling follows Pooling_Eligibility_v35.
+rq3_latency_crosswalk.csv,Legacy_Inclusion_Status_436,string,Historical exploratory 436-observation inclusion label; not current pooling eligibility.
+rq3_latency_crosswalk.csv,Legacy_Mechanism_Family_Table310,string,Historical mechanism-family assignment.
+rq3_latency_crosswalk.csv,Legacy_Estimand_Level_Table310b,string,Historical estimand-level assignment.
+rq3_latency_crosswalk.csv,Forensic_Inclusion_Disposition,string,Intermediate forensic disposition before final adjudication.
+rq3_latency_crosswalk.csv,Reclassified_Estimand_Level,string,"Final operational latency level L1 primitive, L2 request gate, L3 setup, L4 end-to-end workflow, or separately stratified scope."
+rq3_latency_crosswalk.csv,Reclassified_Mechanism_Family,string,"Final latency mechanism family; used for grouping eligible rows, not a ranking of comparable security mechanisms."
+rq3_latency_crosswalk.csv,Reclassification_Changed_L,number,Recorded flag indicating change in operational latency level.
+rq3_latency_crosswalk.csv,Reclassification_Changed_Family,number,Recorded flag indicating change in mechanism family.
+rq3_latency_crosswalk.csv,Reclassification_Rationale,string,Recorded operational reclassification rationale.
+rq3_latency_crosswalk.csv,Evidence_Location,string,Recorded primary-source page/table/figure locator.
+rq3_latency_crosswalk.csv,Source_PDF_SHA256,string,Recorded SHA-256 identity of the assessed primary PDF; the PDF is not distributed or rehashed by these scripts.
+rq3_latency_crosswalk.csv,Audit_Verification_State,string,Recorded final workflow state; use observed CSV values and counts rather than infer Claim_QA from this field name.
+rq3_latency_crosswalk.csv,Adjudication_ID_v35,string,Semicolon-delimited adjudication decision IDs; one row may receive multiple decisions. Blank means no v3.5 decision ID recorded.
+rq3_latency_crosswalk.csv,Reviewer1_Decision_v35,string,Recorded reviewer decision; semicolon-delimited when multiple decisions affect the row.
+rq3_latency_crosswalk.csv,Adjudicated_Value_v35,number,Final adjudicated value text in Adjudicated_Unit_v35; normalized latency is in Adjudicated_Latency_ms_v35.
+rq3_latency_crosswalk.csv,Adjudicated_Unit_v35,string,Unit of final adjudicated value; do not pool unlike units.
+rq3_latency_crosswalk.csv,Adjudicated_Latency_ms_v35,number,Final normalized milliseconds. Primary latency synthesis additionally requires Pooling_Eligibility_v35=ELIGIBLE_PRIMARY_STRATIFIED_SYNTHESIS. Never impute missing values as zero.
+rq3_latency_crosswalk.csv,Adjudicated_Estimand_Scope_v35,string,Final text qualifying the timer/operation scope.
+rq3_latency_crosswalk.csv,Adjudicated_Mechanism_v35,string,Final mechanism qualification.
+rq3_latency_crosswalk.csv,Adjudicated_Rationale_v35,string,Final reviewer rationale for metric value/scope/disposition; may cite historical errors being corrected.
+rq3_latency_crosswalk.csv,Canonical_Observation_ID_v35,string,"Final source-observation identity, mirrored as Canonical_Observation_ID in metrics."
+rq3_latency_crosswalk.csv,Pooling_Eligibility_v35,string,"Final latency disposition. READY is claim QA and does not override duplicate, quarantine, bound, batch, or other exclusion/stratification decisions."
+rq3_latency_crosswalk.csv,Human_Sign_Off_v35,string,"Recorded 2 November 2026 sign-off and review/decision references; preserved provenance, not a new editorial approval."
+rq3_latency_crosswalk.csv,Dim1_Timer_Boundary,string,Recorded timer-boundary operational dimension.
+rq3_latency_crosswalk.csv,Dim2_Recurrence_Lifecycle,string,Recorded recurrence/lifecycle operational dimension.
+rq3_latency_crosswalk.csv,Dim3_Online_Offline_Mode,string,Recorded online/offline operational dimension.
+rq3_latency_crosswalk.csv,Dim4_Statistic_Type,string,Recorded statistic-type operational dimension. Workload and mechanism fields hold the other operation-context descriptions.
+rq3_latency_crosswalk.csv,Public_Adjudication_Status,string,Public text of final disposition or unchanged Stage 3 verification.
+rq3_metrics.csv,Metric_ID,string,Unique metric-row identifier; crosswalk foreign key to rq3_metrics.csv.
+rq3_metrics.csv,Claim_ID,string,Unique claim identifier; primary key in claims.csv and foreign key elsewhere.
+rq3_metrics.csv,Source_Record_ID,string,Canonical included-report identifier; foreign key to studies.csv.
+rq3_metrics.csv,Metric_Name,string,Name of the metric/configuration/statistic as extracted.
+rq3_metrics.csv,Numeric_Value,number,Extracted numeric value; blank for NR. For adjudicated analysis prefer nonblank Adjudicated_Numeric_Value_v35.
+rq3_metrics.csv,Unit,string,"Source-unit label. For disjoint reporting, first map Data_Status=NOT_REPORTED to NR, then group remaining Unit values. Raw fraction has 98 rows; two are NR, leaving 96 numeric fractions."
+rq3_metrics.csv,Measurement_Level,string,Original extracted metric measurement scope.
+rq3_metrics.csv,Target_Configuration,string,System/algorithm/configuration measured by the observation.
+rq3_metrics.csv,Workload,string,"Recorded unit of work or benchmark context; free text, not a normalized batch-size enum."
+rq3_metrics.csv,Hardware_Runtime,string,Hardware/software/runtime context as reported; NR records absent reporting.
+rq3_metrics.csv,Baseline_Value,number,Extracted comparable baseline value when reported; interpret with Baseline_Unit and scope.
+rq3_metrics.csv,Baseline_Unit,string,Unit of the baseline; must not be assumed equal to metric Unit.
+rq3_metrics.csv,Repetitions,string,Reported repetitions/sample count or missingness text.
+rq3_metrics.csv,Uncertainty,string,Source-reported interval/variation or missingness text.
+rq3_metrics.csv,Data_Status,string,Observation reporting/resolution state; NOT_REPORTED identifies nonnumeric omission rows regardless of Unit.
+rq3_metrics.csv,Evidence_Location,string,Recorded primary-source page/table/figure locator.
+rq3_metrics.csv,Source_Version_ID,string,Recorded source filename or pinned bibliographic/preprint version.
+rq3_metrics.csv,Source_PDF_SHA256,string,Recorded SHA-256 identity of the assessed primary PDF; the PDF is not distributed or rehashed by these scripts.
+rq3_metrics.csv,Verification_Status,string,Recorded verification workflow state; does not authenticate independent human review.
+rq3_metrics.csv,Audit_Date,string,Recorded source-audit date.
+rq3_metrics.csv,Source_Note,string,Extracted source-context and qualification note.
+rq3_metrics.csv,Claim_QA,string,"Claim-level release stratum READY or FLAGGED; inherited by linked observations, not a metric-level eligibility decision."
+rq3_metrics.csv,Adjudicated_Numeric_Value_v35,number,Final numeric value in Adjudicated_Unit_v35. Blank for excluded synthetic-zero/non-time rows is not a zero latency.
+rq3_metrics.csv,Adjudicated_Unit_v35,string,Unit of final adjudicated value; do not pool unlike units.
+rq3_metrics.csv,Canonical_Observation_ID,string,Recorded source-observation identity used to identify sibling-claim repetitions; blank is not evidence of uniqueness.
+rq3_metrics.csv,Adjudication_Status,string,Final metric adjudication status text.
+rq3_metrics.csv,Adjudication_ID_v35,string,Semicolon-delimited adjudication decision IDs; one row may receive multiple decisions. Blank means no v3.5 decision ID recorded.
+rq3_metrics.csv,Reviewer1_Decision_v35,string,Recorded reviewer decision; semicolon-delimited when multiple decisions affect the row.
+rq3_metrics.csv,Adjudicated_Action_v35,string,Recorded enacted action(s); may combine multiple decisions on one row.
+rq3_metrics.csv,Adjudicated_Rationale_v35,string,Final reviewer rationale for metric value/scope/disposition; may cite historical errors being corrected.
+rq3_metrics.csv,Audit_Verification_State,string,Recorded final workflow state; use observed CSV values and counts rather than infer Claim_QA from this field name.
+rq3_metrics.csv,Public_Adjudication_Status,string,Public text of final disposition or unchanged Stage 3 verification.
+rq3_metrics.csv,Human_Sign_Off_v35,string,"Recorded 2 November 2026 sign-off and review/decision references; preserved provenance, not a new editorial approval."
+rq3_metrics.csv,Study_Family_ID,string,"Canonical report cluster, SF-<Source_Record_ID>; not independent validation of a study family."
+rq4_dependencies.csv,Dependency_ID,string,"Unique RQ4 inventory-row identifier, including excluded non-cryptographic records."
+rq4_dependencies.csv,Claim_ID,string,Unique claim identifier; primary key in claims.csv and foreign key elsewhere.
+rq4_dependencies.csv,Source_Record_ID,string,Canonical included-report identifier; foreign key to studies.csv.
+rq4_dependencies.csv,Study_Family_ID,string,"Canonical report cluster, SF-<Source_Record_ID>; not independent validation of a study family."
+rq4_dependencies.csv,Evidence_Tier,string,Recorded peer-reviewed or arXiv-preprint tier.
+rq4_dependencies.csv,Claim_QA,string,"Claim-level release stratum READY or FLAGGED; inherited by linked observations, not a metric-level eligibility decision."
+rq4_dependencies.csv,Claim_Support_Status,string,"Support for the assessed claim scope: SUPPORTED_WITHIN_SCOPE, PARTIALLY_SUPPORTED, or NOT_SUPPORTED; independent of release status."
+rq4_dependencies.csv,PQC_Migration_Stage,string,Original migration evidence label. Analyze NOT_DISCUSSED and STAGE_0 jointly because batch coding differed; do not infer quantum safety from either label.
+rq4_dependencies.csv,Protected_Asset,string,Asset protected by the recorded dependency.
+rq4_dependencies.csv,Security_Function,string,"Function of the dependency, such as authentication, confidentiality, or evidence integrity."
+rq4_dependencies.csv,Original_Construction_Algorithm_90char,string,Archived 90-character construction description; use full mechanism and final adjudication fields for interpretation.
+rq4_dependencies.csv,Was_Truncated_At_90_Chars,number,Flag for truncation of the original short construction field.
+rq4_dependencies.csv,Full_Untruncated_Claim_Mechanism,string,Full parent-claim mechanism description.
+rq4_dependencies.csv,Parameters_As_Reported,string,"Source-reported construction parameters; NR means no concrete parameters reported, not a verified suite."
+rq4_dependencies.csv,Original_Quantum_Exposure_Assessment,string,Archived extracted source/reviewer assessment before final reconciliation; prefixes distinguish origin and missingness.
+rq4_dependencies.csv,Exposure_Provenance_Class,string,Origin of exposure assessment; SOURCE_STATED_OR_EVALUATED versus reviewer/batch inference or non-applicability.
+rq4_dependencies.csv,Forensic_Exposure_Certainty,string,Archived pre-final certainty classification; final analysis uses Adjudicated_Exposure_Tier_v35.
+rq4_dependencies.csv,Shor_Exposure_Tier,string,Archived pre-final Shor exposure label; final analysis uses Adjudicated_Exposure_Tier_v35.
+rq4_dependencies.csv,Forensic_10Category_Class,string,Archived pre-final construction classification; final analysis uses Adjudicated_Category_v35.
+rq4_dependencies.csv,Forensic_7Class_Group,string,Archived pre-final grouped construction class.
+rq4_dependencies.csv,Multi_Label_Classes,string,Archived multilabel mechanism classes.
+rq4_dependencies.csv,Multi_Label_Count,number,Count of archived multilabel mechanism classes.
+rq4_dependencies.csv,Protection_Lifetime_As_Reported,string,Source-reported required protection lifetime; do not invent a lifetime when NR.
+rq4_dependencies.csv,Migration_Alternative_As_Reported,string,Migration option attributed to the primary source.
+rq4_dependencies.csv,Reviewer_Proposed_Alternative,string,Reviewer migration suggestion; not evidence of implementation in the primary study.
+rq4_dependencies.csv,Reviewer_Inference_Status,string,"Recorded reviewer inference/review state, separate from source-reported evidence."
+rq4_dependencies.csv,Analysis_Status,string,Recorded dependency analysis state.
+rq4_dependencies.csv,Verification_Status,string,Recorded verification workflow state; does not authenticate independent human review.
+rq4_dependencies.csv,Evidence_Location,string,Recorded primary-source page/table/figure locator.
+rq4_dependencies.csv,Source_PDF_SHA256,string,Recorded SHA-256 identity of the assessed primary PDF; the PDF is not distributed or rehashed by these scripts.
+rq4_dependencies.csv,Audit_Verification_State,string,Recorded final workflow state; use observed CSV values and counts rather than infer Claim_QA from this field name.
+rq4_dependencies.csv,Adjudication_ID_v35,string,Semicolon-delimited adjudication decision IDs; one row may receive multiple decisions. Blank means no v3.5 decision ID recorded.
+rq4_dependencies.csv,Reviewer1_Decision_v35,string,Recorded reviewer decision; semicolon-delimited when multiple decisions affect the row.
+rq4_dependencies.csv,Adjudicated_Action_v35,string,Recorded enacted action(s); may combine multiple decisions on one row.
+rq4_dependencies.csv,Adjudicated_Estimand_v35,string,Final dependency scope/estimand qualification.
+rq4_dependencies.csv,Adjudicated_Mechanism_v35,string,Final mechanism qualification.
+rq4_dependencies.csv,Adjudicated_Reason_v35,string,Final dependency-adjudication rationale.
+rq4_dependencies.csv,Denominator_Status_v35,string,"Final RQ4 membership; EXCLUDED_* rows are outside the active cryptographic denominator. All other rows are active, including Suite NR."
+rq4_dependencies.csv,Human_Sign_Off_v35,string,"Recorded 2 November 2026 sign-off and review/decision references; preserved provenance, not a new editorial approval."
+rq4_dependencies.csv,Adjudicated_Category_v35,string,Final RQ4 construction class; preferred over original forensic category fields.
+rq4_dependencies.csv,Adjudicated_Exposure_Tier_v35,string,Final RQ4 exposure-certainty tier; preferred over original Shor/forensic labels.
+rq4_dependencies.csv,Public_Adjudication_Status,string,Public text of final disposition or unchanged Stage 3 verification.
+studies.csv,Stage3_ID,string,Unique Stage 3 report-row identifier.
+studies.csv,Source_Record_ID,string,Canonical included-report identifier; foreign key to studies.csv.
+studies.csv,Screening_ID,string,Recorded upstream screening identifier; full screening register not distributed.
+studies.csv,Evidence_Tier,string,Recorded peer-reviewed or arXiv-preprint tier.
+studies.csv,Year,number,Bibliographic year; two 2027 issue-date records have recorded pre-cutoff eligibility. Year alone is not an online-first date.
+studies.csv,Doc_Type,string,Recorded publication/document type.
+studies.csv,Title,string,Bibliographic title of the included report.
+studies.csv,Authors,string,Bibliographic authors.
+studies.csv,Venue,string,Publication venue.
+studies.csv,DOI,string,DOI as recorded in the included-report metadata.
+studies.csv,URL,string,Recorded bibliographic/source URL.
+studies.csv,Confirmed_Stream,string,"Recorded evidence stream A, M, or M_AND_A; hybrid counts once."
+studies.csv,Target_Boundaries,string,Report-level boundary metadata; claim synthesis uses Boundary_Codes in claims.csv.
+studies.csv,Architecture_Type,string,Recorded report-level architecture description.
+studies.csv,Interaction_Type,string,Recorded actor interaction topology; may contain multiple actors.
+studies.csv,Architecture_Evidence_Location,string,Primary-source locator supporting architecture metadata.
+studies.csv,Source_PDF_SHA256,string,Recorded SHA-256 identity of the assessed primary PDF; the PDF is not distributed or rehashed by these scripts.
+studies.csv,Extraction_Status,string,Recorded report-level extraction/release grouping.
+studies.csv,Verification_Status,string,Recorded verification workflow state; does not authenticate independent human review.
+studies.csv,Study_Family_ID,string,"Canonical report cluster, SF-<Source_Record_ID>; not independent validation of a study family."
